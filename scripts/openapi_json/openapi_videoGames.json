@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What&#039;s the name of the main protagonist in the &quot;Legend of Zelda&quot; franchise?",
+      "correct_answer": "Link",
+      "incorrect_answers": [
+        "Mario",
+        "Zelda",
+        "Pit"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many games in the Crash Bandicoot series were released on the original Playstation?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of &quot;Team Fortress 2&quot; update, in which it became Free-to-play?",
+      "correct_answer": "&Uuml;ber Update",
+      "incorrect_answers": [
+        "Pyromania Update",
+        "Mann-Conomy Update",
+        "Engineer Update"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Greek letter represents the &quot;Half-Life&quot; logo?",
+      "correct_answer": "Lambda",
+      "incorrect_answers": [
+        "Omega",
+        "Alpha",
+        "Sigma"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these is a type of monster found in Minecraft?",
+      "correct_answer": "Skeleton",
+      "incorrect_answers": [
+        "Werewolf",
+        "Vampire",
+        "Minotaur"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the writer of the game &quot;Half-Life&quot;?",
+      "correct_answer": "Marc Laidlaw",
+      "incorrect_answers": [
+        "Gabe Newell",
+        "Robin Walker",
+        "Chet Faliszek"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these video game engines was made by the company Epic Games?",
+      "correct_answer": "Unreal",
+      "incorrect_answers": [
+        "Unity",
+        "Game Maker: Studio",
+        "Cry Engine"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first video game in the Batman &quot;Arkham&quot; series?",
+      "correct_answer": "Arkham Asylum",
+      "incorrect_answers": [
+        "Arkham Knight",
+        "Arkham City",
+        "Arkham Origins"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the main character in &quot;The Stanley Parable&quot;?",
+      "correct_answer": "Stanley",
+      "incorrect_answers": [
+        "The Adventure Line",
+        "The Narrator",
+        "The Boss"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the voice actor for Snake in Metal Gear Solid V: The Phantom Pain?",
+      "correct_answer": "Kiefer Sutherland",
+      "incorrect_answers": [
+        "David Hayter",
+        "Norman Reedus",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these is NOT a playable character in the 2016 video game Overwatch?",
+      "correct_answer": "Invoker",
+      "incorrect_answers": [
+        "Mercy",
+        "Winston",
+        "Zenyatta"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the founder of Team Fortress 2&#039;s fictional company &quot;Mann Co&quot;?",
+      "correct_answer": "Zepheniah Mann",
+      "incorrect_answers": [
+        "Cave Johnson",
+        "Wallace Breem",
+        "Saxton Hale"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the game &quot;Overwatch,&quot; what are the names of the two Australian criminals from the Junkers faction?",
+      "correct_answer": "Junkrat and Roadhog",
+      "incorrect_answers": [
+        "Roadrat and Junkhog",
+        "Ana and Pharah",
+        "McCree and Deadeye"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What company created and developed the game &quot;Overwatch&quot;?",
+      "correct_answer": "Blizzard Entertainment",
+      "incorrect_answers": [
+        "Valve",
+        "Hi-Rez Studios",
+        "Gearbox Software"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the original name of Crash Bandicoot?",
+      "correct_answer": "Willie Wombat",
+      "incorrect_answers": [
+        "Coco Bandicoot",
+        "Marvelous Mole",
+        "Wally Wombat"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the Half-Life series, Gordon Freeman&#039;s signature weapon is a:",
+      "correct_answer": "Crowbar",
+      "incorrect_answers": [
+        "Sledgehammer",
+        "Fiber Wire",
+        "Katana"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Rocket League is a game which features..",
+      "correct_answer": "Cars",
+      "incorrect_answers": [
+        "Helicopters",
+        "Planes",
+        "Submarines"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What ingredients are required to make a cake in Minecraft?",
+      "correct_answer": "Milk, Sugar, Egg, and Wheat",
+      "incorrect_answers": [
+        "Milk, Bread, Egg, and Wheat",
+        "Milk, Sugar Cane, Egg, and Wheat",
+        "Milk, Sugar, and Wheat"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a summon in the game &quot;South Park: The Stick of Truth&quot;?",
+      "correct_answer": "Towelie",
+      "incorrect_answers": [
+        "Jesus",
+        "Mr. Hankey",
+        "Mr. Slave"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many differently shaped Tetris pieces are there?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who are the original creators of Rachet &amp; Clank?",
+      "correct_answer": "Insomniac Games",
+      "incorrect_answers": [
+        "PixelTail Games",
+        "Rare",
+        "Bethesda"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year was &quot;Antichamber&quot; released?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2012",
+        "2014",
+        "2011"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Pokemon Red &amp; Blue, what is the name of HM05?",
+      "correct_answer": "Flash",
+      "incorrect_answers": [
+        "Strength",
+        "Cut",
+        "Fly"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Rust, how many Timed Explosive Charges does it take to destroy a Ladder Hatch?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "3",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who turns out to be the true victor in the Battle of Armageddon in Mortal Kombat?",
+      "correct_answer": "Shao Kahn",
+      "incorrect_answers": [
+        "Liu Kang",
+        "Shang Tsung",
+        "Raiden"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the 4-armed Chaos Witch from the 2016 video game &quot;Battleborn&quot;?",
+      "correct_answer": "Orendi",
+      "incorrect_answers": [
+        "Orendoo",
+        "Oranda",
+        "Randy"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the world that the MMO &quot;RuneScape&quot; takes place in?",
+      "correct_answer": "Gielinor",
+      "incorrect_answers": [
+        "Glindor",
+        "Azeroth",
+        "Zaros"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When was Left 4 Dead 2 released?",
+      "correct_answer": "November 17, 2009",
+      "incorrect_answers": [
+        "May 3, 2008",
+        "November 30, 2009",
+        "June 30, 2010"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?",
+      "correct_answer": "Rockman",
+      "incorrect_answers": [
+        "Paperman",
+        "Scissorsman",
+        "Mega Man"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "&quot;The Potato Sack&quot; was a collection of indie games released on Steam in 2011 as a promotion for which game?",
+      "correct_answer": "Portal 2",
+      "incorrect_answers": [
+        "Left 4 Dead 2",
+        "Half-Life 3",
+        "Dota 2"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of the machine that upgrades weapons?",
+      "correct_answer": "Pack-A-Punch",
+      "incorrect_answers": [
+        "Wunderfizz",
+        "Gersch Device",
+        "Mule Kick"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the game developer who created &quot;Call Of Duty: Zombies&quot;?",
+      "correct_answer": "Treyarch",
+      "incorrect_answers": [
+        "Sledgehammer Games",
+        "Infinity Ward",
+        "Naughty Dog"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which character in the &quot;Animal Crossing&quot; series uses the phrase &quot;zip zoom&quot; when talking to the player?",
+      "correct_answer": "Scoot",
+      "incorrect_answers": [
+        "Drake",
+        "Bill",
+        "Mallary"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who created the &quot;Metal Gear&quot; Series?",
+      "correct_answer": "Hideo Kojima",
+      "incorrect_answers": [
+        "Hiroshi Yamauchi",
+        "Shigeru Miyamoto",
+        "Gunpei Yokoi"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the Halo series, which era of SPARTAN is Master Chief? ",
+      "correct_answer": "SPARTAN-II",
+      "incorrect_answers": [
+        "SPARTAN-I",
+        "SPARTAN-III",
+        "SPARTAN-IV"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What are Sans and Papyrus named after in &quot;Undertale&quot;?",
+      "correct_answer": "Fonts",
+      "incorrect_answers": [
+        "Plants",
+        "Companies",
+        "Ancient writing paper"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first game in the &quot;Battlefield&quot; series?",
+      "correct_answer": "Battlefield 1942",
+      "incorrect_answers": [
+        "Battlefield Vietnam",
+        "Battlefield 2",
+        "Battlefield 1"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the hardest possible difficulty in &quot;Deus Ex: Mankind Divided&quot;?",
+      "correct_answer": "I Never Asked For This",
+      "incorrect_answers": [
+        "Nightmare",
+        "Extreme",
+        "Guru"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;PUBATTLEGROUNDS&quot; which ammo type does the M24 use?",
+      "correct_answer": "7.62mm",
+      "incorrect_answers": [
+        "5.56mm",
+        "9mm",
+        ".300 Magnum"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Rincewind from the 1995 Discworld game was voiced by which member of Monty Python?",
+      "correct_answer": "Eric Idle",
+      "incorrect_answers": [
+        "John Cleese",
+        "Terry Gilliam",
+        "Michael Palin"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;Yo! Noid 2,&quot; The Noid can perform what special move?",
+      "correct_answer": "Dab",
+      "incorrect_answers": [
+        "Pizza Throw",
+        "Dodge Roll",
+        "Spin Dash"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the adventurer you meet at the mines in Stardew Valley?",
+      "correct_answer": "Marlon",
+      "incorrect_answers": [
+        "Marnie",
+        "Morris",
+        "Marvin"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In World of Warcraft the default UI color that signifies Druid is what?",
+      "correct_answer": "Orange",
+      "incorrect_answers": [
+        "Brown",
+        "Green",
+        "Blue"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the game Sonic Forces, which of the following was not from a previous game?",
+      "correct_answer": "Infinite",
+      "incorrect_answers": [
+        "Metal Sonic",
+        "Zavoc",
+        "Chaos"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of 2 Valve Games are set in the same universe?",
+      "correct_answer": "Half-life and Portal",
+      "incorrect_answers": [
+        "Portal and Left 4 Dead",
+        "Half-life and Left 4 Dead",
+        "Half-life and Counter Strike"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these covert groups employs Sam Fisher to work as a Splinter Cell?",
+      "correct_answer": "Third Echelon",
+      "incorrect_answers": [
+        "Voron",
+        "Black Arrow",
+        "The Engineers"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the name of the canceled projected by Blizzard Entertainment that would be later become Overwatch?",
+      "correct_answer": "Titan",
+      "incorrect_answers": [
+        "Omnic",
+        "Omega",
+        "Ghost"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which psychopath(s) in Dead Rising 1 gave you the small chainsaw?",
+      "correct_answer": "Adam the Clown",
+      "incorrect_answers": [
+        "Cliff Hudson",
+        "The convicts",
+        "Larry the butcher"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the video game &quot;Postal 2&quot;, what is the name of Postal Dude&#039;s dog?",
+      "correct_answer": "Champ",
+      "incorrect_answers": [
+        "Snoopy",
+        "Krotchy",
+        "Duke"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which character was introduced to the Super Smash Bros franchise in Super Smash Bros Melee?",
+      "correct_answer": "Sheik",
+      "incorrect_answers": [
+        "Samus",
+        "Lucas",
+        "Mega Man"
+      ]
+    }
+  ]
+}

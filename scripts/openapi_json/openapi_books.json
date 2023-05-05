@@ -1,0 +1,245 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the name of Captain Nemo&#039;s submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+      "correct_answer": "The Nautilus",
+      "incorrect_answers": [
+        "The Neptune",
+        "The Poseidon  ",
+        "The Atlantis"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is Hermione Granger&#039;s middle name?",
+      "correct_answer": "Jean",
+      "incorrect_answers": [
+        "Jane",
+        "Emma",
+        "Jo"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, &#039;Oliver Twist&#039;?",
+      "correct_answer": "The Artful Dodger",
+      "incorrect_answers": [
+        "Fagin",
+        "Bull&rsquo;s-eye",
+        "Mr. Fang"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which famous spy novelist wrote the childrens&#039; story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+      "correct_answer": "Ian Fleming",
+      "incorrect_answers": [
+        "Joseph Conrad",
+        "John Buchan",
+        "Graham Greene"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The novel &quot;Of Mice And Men&quot; was written by what author? ",
+      "correct_answer": "John Steinbeck ",
+      "incorrect_answers": [
+        "George Orwell",
+        "Mark Twain ",
+        "Harper Lee"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+      "correct_answer": "Fluffy",
+      "incorrect_answers": [
+        "Spike",
+        "Poofy",
+        "Spot"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these book series is by James Patterson?",
+      "correct_answer": "Maximum Ride",
+      "incorrect_answers": [
+        "Harry Potter",
+        "The Legend of Xanth",
+        "The Bartemaeus Trilogy"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "correct_answer": "The Greasers",
+      "incorrect_answers": [
+        "The Outsiders",
+        "The Mafia",
+        "The Socs"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The book &quot;Fahrenheit 451&quot; was written by whom?",
+      "correct_answer": "Ray Bradbury",
+      "incorrect_answers": [
+        "R. L. Stine",
+        "Wolfgang Amadeus Mozart",
+        "Stephen King"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "correct_answer": "Wessex",
+      "incorrect_answers": [
+        "Barsetshire",
+        "Fulchester",
+        "Ambridge"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many books are in the Chronicles of Narnia series?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "6",
+        "8",
+        "5"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In the book &quot;The Martian&quot;, how long was Mark Watney trapped on Mars (in Sols)?",
+      "correct_answer": "549 Days",
+      "incorrect_answers": [
+        "765 Days",
+        "401 Days",
+        "324 Days"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is Hermione Granger&#039;s middle name?",
+      "correct_answer": "Jean",
+      "incorrect_answers": [
+        "Jane",
+        "Emma",
+        "Jo"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who wrote the novel &#039;Fear And Loathing In Las Vegas&#039;?",
+      "correct_answer": "Hunter S. Thompson",
+      "incorrect_answers": [
+        "F. Scott Fitzgerald",
+        "Henry Miller",
+        "William S. Burroughs"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+      "correct_answer": "Richard Bachman",
+      "incorrect_answers": [
+        "J. D. Robb",
+        "Mark Twain",
+        "Lewis Carroll"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+      "correct_answer": "Answer a riddle",
+      "incorrect_answers": [
+        "Rhythmically tap barrels with a wand",
+        "Speak a password",
+        "Knock in sequence"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+      "correct_answer": "Amy",
+      "incorrect_answers": [
+        "Beth",
+        "Jo",
+        "Meg"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "correct_answer": "Wessex",
+      "incorrect_answers": [
+        "Barsetshire",
+        "Fulchester",
+        "Ambridge"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who is the author of the series &quot;Malazan Book of the Fallen&quot;?",
+      "correct_answer": "Steven Erikson",
+      "incorrect_answers": [
+        "Ian Cameron Esslemont",
+        "George R. R. Martin",
+        "J. R. R. Tolkien"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was Sir Handel&#039;s original name in &quot;The Railway Series&quot; and it&#039;s animated counterpart &quot;Thomas and Friends?&quot;",
+      "correct_answer": "Falcon",
+      "incorrect_answers": [
+        "Eagle",
+        "Kyte",
+        "Swallow"
+      ]
+    }
+  ]
+}

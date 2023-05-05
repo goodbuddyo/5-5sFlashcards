@@ -1,0 +1,605 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following sports is not part of the triathlon?",
+      "correct_answer": "Horse-Riding",
+      "incorrect_answers": [
+        "Cycling",
+        "Swimming",
+        "Running"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?",
+      "correct_answer": "Hammer",
+      "incorrect_answers": [
+        "Wrench",
+        "Drill",
+        "Screwdriver"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In golf, what name is given to a hole score of two under par?",
+      "correct_answer": "Eagle",
+      "incorrect_answers": [
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+      "correct_answer": "Duck",
+      "incorrect_answers": [
+        "Bye",
+        "Beamer",
+        "Carry"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which English football club has the nickname &#039;The Foxes&#039;?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Northampton Town",
+        "Bradford City",
+        "West Bromwich Albion"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "correct_answer": "Badminton",
+      "incorrect_answers": [
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which team won the 2015-16 English Premier League?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Liverpool",
+        "Cheslea",
+        "Manchester United"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "A stimpmeter measures the speed of a ball over what surface?",
+      "correct_answer": "Golf Putting Green",
+      "incorrect_answers": [
+        " Football Pitch",
+        "Cricket Outfield",
+        "Pinball Table"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "correct_answer": "Alain Prost",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Niki Lauda",
+        "Emerson Fittipaldi"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many scoring zones are there on a conventional dart board?",
+      "correct_answer": "82",
+      "incorrect_answers": [
+        "62",
+        "42",
+        "102"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In a game of snooker, what colour ball is worth 3 points?",
+      "correct_answer": "Green",
+      "incorrect_answers": [
+        "Yellow",
+        "Brown",
+        "Blue"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the 2015 Formula 1 World Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Nico Rosberg",
+        "Sebastian Vettel",
+        "Jenson Button"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which team was the 2015-2016 NBA Champions?",
+      "correct_answer": "Cleveland Cavaliers",
+      "incorrect_answers": [
+        "Golden State Warriors",
+        "Toronto Raptors",
+        "Oklahoma City Thunders"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which team was the 2014-2015 NBA Champions?",
+      "correct_answer": "Golden State Warriors",
+      "incorrect_answers": [
+        "Cleveland Cavaliers",
+        "Houston Rockets",
+        "Atlanta Hawks"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+      "correct_answer": "Porsche",
+      "incorrect_answers": [
+        "Toyota",
+        "Audi",
+        "Ferrari"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "correct_answer": "Ma Long (China)",
+      "incorrect_answers": [
+        "Zhang Jike (China)",
+        "Jun Mizutani (Japan)",
+        "Vladimir Samsonov (Belarus)"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+      "correct_answer": "Mercedes-AMG Petronas",
+      "incorrect_answers": [
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?",
+      "correct_answer": "Quebec City",
+      "incorrect_answers": [
+        "Houston",
+        "Montreal",
+        "New York"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the oldest team in Major League Baseball?",
+      "correct_answer": "Atlanta Braves",
+      "incorrect_answers": [
+        "Chicago Cubs",
+        "Cincinnati Reds",
+        "St. Louis Cardinals"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+      "correct_answer": "Jules Bianchi",
+      "incorrect_answers": [
+        "Ayrton Senna",
+        "Ronald Ratzenberger",
+        "Gilles Villeneuve"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year did the New Orleans Saints win the Super Bowl?",
+      "correct_answer": "2010",
+      "incorrect_answers": [
+        "2008",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+      "correct_answer": "Don Cherry",
+      "incorrect_answers": [
+        "Don McKellar",
+        "Don Taylor ",
+        "Donald Sutherland"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+      "correct_answer": "Madeira",
+      "incorrect_answers": [
+        "Terceira",
+        "Santa Maria",
+        "Porto Santo"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
+      "incorrect_answers": [
+        "Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Why was The Green Monster at Fenway Park was originally built?",
+      "correct_answer": "To prevent viewing games from outside the park.",
+      "incorrect_answers": [
+        "To make getting home runs harder.",
+        "To display advertisements.",
+        "To provide extra seating."
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+      "correct_answer": "American Football",
+      "incorrect_answers": [
+        "Wrestling",
+        "Archery",
+        "Horse-Racing"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
+      "correct_answer": "Shaquille O&#039;Neal",
+      "incorrect_answers": [
+        "Allen Iverson",
+        "Kobe Bryant",
+        "Paul Pierce"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "correct_answer": "Mike Tyson",
+      "incorrect_answers": [
+        "Roy Jones Jr.",
+        "Evander Holyfield",
+        "Lennox Lewis"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What team did England beat to win in the 1966 World Cup final?",
+      "correct_answer": "West Germany",
+      "incorrect_answers": [
+        "Soviet Union",
+        "Portugal",
+        "Brazil"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+      "correct_answer": "Portugal",
+      "incorrect_answers": [
+        "West Germany",
+        "Soviet Union",
+        "Brazil"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In bowling, what is the term used for getting three consecutive strikes?",
+      "correct_answer": "Turkey",
+      "incorrect_answers": [
+        "Flamingo",
+        "Birdie",
+        "Eagle"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "correct_answer": "Jackie Robinson",
+      "incorrect_answers": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "11",
+        "20",
+        "22"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of Manchester United&#039;s home stadium?",
+      "correct_answer": "Old Trafford",
+      "incorrect_answers": [
+        "Anfield",
+        "City of Manchester Stadium",
+        "St James Park"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+      "correct_answer": "Eric Cantona",
+      "incorrect_answers": [
+        "David Seamen",
+        "Ashley Cole",
+        "Mark Hughes"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+      "correct_answer": "Leicester City",
+      "incorrect_answers": [
+        "Tottenham Hotspur",
+        "Watford",
+        "Stoke City"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+      "correct_answer": "Wayne Rooney",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Robin Van Persie",
+        "David Beckham"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+      "correct_answer": "Brooklyn",
+      "incorrect_answers": [
+        "Las Vegas",
+        "Boston",
+        "Seattle"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers&#039; Championship?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2010",
+        "2007",
+        "2006"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country will host the 2022 FIFA World Cup?",
+      "correct_answer": "Qatar",
+      "incorrect_answers": [
+        "USA",
+        "Japan",
+        "Switzerland"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the 2017 Formula One World Drivers&#039; Championship?",
+      "correct_answer": "Lewis Hamilton",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Max Verstappen"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+      "correct_answer": "Carlos Sainz Jr.",
+      "incorrect_answers": [
+        "Daniil Kvyat",
+        "Jolyon Palmer",
+        "Rio Haryanto"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2011 Stanley Cup?",
+      "correct_answer": "Boston Bruins",
+      "incorrect_answers": [
+        "Montreal Canadiens",
+        "New York Rangers",
+        "Toronto Maple Leafs"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+      "correct_answer": "Toronto Marlies",
+      "incorrect_answers": [
+        "Toronto Rock",
+        "Toronto Argonauts",
+        "Toronto Wolfpack"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+      "correct_answer": "Horse Racing",
+      "incorrect_answers": [
+        "Chess",
+        "Jousting",
+        "Fencing"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which basketball team has attended the most NBA grand finals?",
+      "correct_answer": "Los Angeles Lakers",
+      "incorrect_answers": [
+        "Boston Celtics",
+        "Philadelphia 76ers",
+        "Golden State Warriors"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+      "correct_answer": "India",
+      "incorrect_answers": [
+        "Australia",
+        "Turkey",
+        "Cambodia"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2018 Monaco Grand Prix?",
+      "correct_answer": "Daniel Ricciardo",
+      "incorrect_answers": [
+        "Sebastian Vettel",
+        "Kimi Raikkonen",
+        "Lewis Hamilton"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+      "correct_answer": "James Rodr&iacute;guez",
+      "incorrect_answers": [
+        "Thomas M&uuml;ller",
+        "Lionel Messi",
+        "Neymar"
+      ]
+    }
+  ]
+}
