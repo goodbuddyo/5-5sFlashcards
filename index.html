@@ -6,51 +6,302 @@
   <title>5-5s FlashCards</title>
   <link rel="stylesheet" href="css/main.css">
   <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ph01project.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
   <!-- Insert your scripts here -->
 </head>
 
-<body>
+<body class="fc-body">
   <div class="container">
-    <header>
-      <h1>
-        <a href="/" class="spa-link">
-          <img src="https://via.placeholder.com/160x96" alt="Logo">
-        </a>
-      </h1>
-    </header>
-    <section class="page" id="page-home">
-      <div class="search-bar">
-        Home
-      </div>
-      <div class="table">
-        <table>
-          <tbody>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <section class="page" id="page-details" hidden>
-      <section class="section-details">
-        <div class="details-left">
-          Page
-          <img class="xitem-image" src="" />
-        </div>
-        <div class="details-right">
-          <p class="xitem-type"></p>
-          <h2 class="xitem-title"></h2>
-          <p class="xitem-date"></p>
-          <p class="xitem-description"></p>
-        </div>
-      </section>
-      <section class="section-details divider">
-      </section>
-      <section class="section-details">
-        <div class="details-left">
-        </div>
-      </section>
-    </section>
+    <main class="fc-main  align-items-center justify-content-center ">
 
+      <!-- NAV  https://getbootstrap.com/docs/5.0/components/navbar/ ========= -->
+      <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark-fcblue">
+        <div class="container-fluid">
+          <a href="/" class="spa-link">
+            <img src="img/5-5sFlashcards400x240.svg" alt="Home Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 ms-1">
+              <li class="nav-item ms-1">
+                <a class="nav-link active" aria-current="page" href="#">Game Instructions</a>
+              </li>
+              <li class="nav-item ms-1">
+                <a class="nav-link" href="#">Registration Info</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+      <!-- Homepage - from bs form examples =================  -->
+
+      <section class="page py-5  align-items-center justify-content-center " id="page-home">
+        <div class="pt-5 text-center">
+
+          <h2 class="lead pt-5">Welcome to</h2>
+          <h1 class="welcome">
+            <img class="d-block mx-auto mb-4 " src="img/5-5sFlashcards400x240.svg" alt="5-5s.com FlashCards" width="300"
+              height="210">
+          </h1>
+          <h2 class="lead">A virtual meeting learning game.</h2>
+        </div>
+
+        <div class="py-1 text-center">
+          <h2>Select 5 FlashCard topics to start.</h2>
+          <p class="fs-4 text">Trivia questions courtesy of https://opentdb.com/</p>
+
+          <div class="row py-4   ">
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">General Knowledge
+                </option>
+                <option value="1">Entertainment: Books
+                </option>
+                <option value="1">Entertainment: Film
+                </option>
+                <option value="1">Entertainment: Music
+                </option>
+                <option value="1">Entertainment: Musicals &amp; Theatres
+                </option>
+                <option value="1">Entertainment: Television
+                </option>
+                <option value="1">Entertainment: Video Games
+                </option>
+                <option value="1">Entertainment: Board Games
+                </option>
+                <option value="1">Science &amp; Nature
+                </option>
+                <option value="1">Science: Computers
+                </option>
+                <option value="1">Science: Mathematics
+                </option>
+                <option value="1">Mythology
+                </option>
+                <option value="1">Sports
+                </option>
+                <option value="1">Geography
+                </option>
+                <option value="1">History
+                </option>
+                <option value="1">Politics
+                </option>
+                <option value="1">Art
+                </option>
+                <option value="1">Celebrities
+                </option>
+                <option value="1">Animals
+                </option>
+                <option value="1">Vehicles
+                </option>
+                <option value="1">Entertainment: Comics
+                </option>
+                <option value="1">Science: Gadgets
+                </option>
+                <option value="1">Entertainment: Japanese Anime &amp; Manga
+                </option>
+                <option value="1">Entertainment: Cartoon &amp; Animations
+                </option>
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">General Knowledge
+                </option>
+                <option value="1">Entertainment: Books
+                </option>
+                <option value="1">Entertainment: Film
+                </option>
+                <option value="1">Entertainment: Music
+                </option>
+                <option value="1">Entertainment: Musicals &amp; Theatres
+                </option>
+                <option value="1">Entertainment: Television
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">General Knowledge
+                </option>
+                <option value="1">Entertainment: Books
+                </option>
+                <option value="1">Entertainment: Film
+                </option>
+                <option value="1">Entertainment: Music
+                </option>
+                <option value="1">Entertainment: Musicals &amp; Theatres
+                </option>
+                <option value="1">Entertainment: Television
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">General Knowledge
+                </option>
+                <option value="1">Entertainment: Books
+                </option>
+                <option value="1">Entertainment: Film
+                </option>
+                <option value="1">Entertainment: Music
+                </option>
+                <option value="1">Entertainment: Musicals &amp; Theatres
+                </option>
+                <option value="1">Entertainment: Television
+              </select>
+            </div>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select</option>
+                <option value="1">General Knowledge
+                </option>
+                <option value="1">Entertainment: Books
+                </option>
+                <option value="1">Entertainment: Film
+                </option>
+                <option value="1">Entertainment: Music
+                </option>
+                <option value="1">Entertainment: Musicals &amp; Theatres
+                </option>
+                <option value="1">Entertainment: Television
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="py-3 text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Start Game</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="clear">&nbsp;</div>
+      <!-- Game Instructions =================  -->
+      <section class="section-details">
+        <p class="lead text-muted">---------------- Game Instructions ---------------- </p>
+
+      </section>
+      <div class="clear">&nbsp;</div>
+      <!-- Question Page =================  -->
+      <section class="section-details">
+        <p class="lead text-muted">------------ Question Page ------------ </p>
+      </section>
+
+      <div class="clear">&nbsp;</div>
+      <!-- Answer Page =================  -->
+      <section class="section-details">
+        <p class="lead text-muted">------------ Answer Page ------------ </p>
+      </section>
+
+      <div class="clear">&nbsp;</div>
+      <!-- Question and Answer submit form (if we have time)=================  -->
+      <section class="section-details">
+        <p class="lead text-muted">------------ Question and Answer Form ------------ </p>
+      </section>
+
+      <div class="clear">&nbsp;</div>
+      <!-- Game Board =================  -->
+      <section class="section-details clear">
+        <p class="lead text-muted clear">---------------- Game Board ---------------- </p>
+      </section>
+
+      <div class="clear">&nbsp;</div>
+
+      <section class="" id="page-game-board">
+        <div class="py-1 text-center clear">
+          <div class="row clear">
+            <div class="col-1 ms-0 clear">
+              &nbsp;
+            </div>
+            <div class="col-2 px-0 clear">
+              <ul class="jepList clear">
+                <li class="jepTopic clear">
+                  <h3 class="clear">Video Games</h3>
+                </li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">100</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">200</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">300</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">400</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">500</a></li>
+              </ul>
+            </div>
+            <div class="col-2 px-0">
+              <ul class="jepList ">
+                <li class="jepTopic">
+                  <h3>Art</h3>
+                </li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">100</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">200</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">300</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">400</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">500</a></li>
+              </ul>
+            </div>
+            <div class="col-2 px-0">
+              <ul class="jepList ">
+                <li class="jepTopic">
+                  <h3>Music</h3>
+                </li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">100</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">200</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">300</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">400</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">500</a></li>
+              </ul>
+            </div>
+            <div class="col-2 px-0">
+              <ul class="jepList ">
+                <li class="jepTopic">
+                  <h3>Television Celebrities</h3>
+                </li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">100</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">200</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">300</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">400</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">500</a></li>
+              </ul>
+            </div>
+            <div class="col-2 px-0">
+              <ul class="jepList ">
+                <li class="jepTopic">
+                  <h3>Science</h3>
+                </li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">100</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">200</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">300</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">400</a></li>
+                <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">500</a></li>
+              </ul>
+              <br><br>
+              <div class="clear">&nbsp;</div>
+            </div>
+            <div class="clear">&nbsp;</div>
+          </div>
+          <div class="clear">&nbsp;</div>
+        </div>
+        <div class="clear">&nbsp;</div>
+      </section>
+      <div class="clear">&nbsp;</div>
+    </main>
+    <div class="clear">&nbsp;</div>
   </div>
+  <div class="clear">&nbsp;</div>
+  <!-- end .container -->
 </body>
 
 </html>
