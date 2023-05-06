@@ -70,13 +70,13 @@
         </div>
 
         <div class="py-1 text-center">
-          <h2>Select 5 topics to load FlashCards for each topic.</h2>
+          <h2>Select 5 topics to load FlashCards an start game.</h2>
           <p class="fs-4 text">FlashCard questions courtesy of https://opentdb.com/</p>
 
-          <!--Note: will eventually create select option lists with JS function. 
-            Need an array of objects w/ titles and corresponsing json file names 
-          for now, let's use static -->
-          <!-- need to create an addEventListener('change", "file.json') to read the category questions and answers -->
+          <!-- use array of 18 topics to populate the 5 select options with a forEach.  For now, will use 5 static lists of select options -->
+
+          <!-- with the array of 5 selected topic values from the Start Game button, need to create an event handler function for the Start Game  addEventListener('click", eventHandler(all_select_values) ) which loops through each selected topic, references the appropriate file.json and creates an array of 5 random question/answers to be used for the game board button click events.
+              -->
           <div class="row py-4 mx-1 ">
             <div class="col px-1">
               <form>
@@ -134,7 +134,7 @@
             </div>
             <div class="col px-1">
               <select class="form-select form-select-sm" id="catSelect4">
-                <option selected>Select Topic 4</option>
+                <option value="">Select Topic 4</option>
 
                 <option value="animals">Animals </option>
                 <option value="art">Art </option>
