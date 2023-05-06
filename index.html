@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="css/ph01project.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
+  <script src="scripts/app.js" defer></script>
 
-  <!-- Insert your scripts here -->
+
 </head>
 
 <body class="fc-body">
@@ -23,7 +24,7 @@
 
       <!-- NAV  https://getbootstrap.com/docs/5.0/components/navbar/ ========= -->
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark-fcblue">
-        <div class="container-fluid">
+        <div class="container-fluid py-2">
           <a href="/" class="spa-link">
             <img src="img/5-5sFlashcards400x240.svg" alt="Home Logo">
           </a>
@@ -35,11 +36,20 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0 ms-1">
               <li class="nav-item ms-1">
-                <a class="nav-link active" aria-current="page" href="#">Game Instructions</a>
+                <a class="nav-link pb-0 active" href="#">Home</a>
               </li>
               <li class="nav-item ms-1">
-                <a class="nav-link" href="#">Registration Info</a>
+                <a class="nav-link pb-0 " href="#">Instructions</a>
               </li>
+              <li class="nav-item ms-1">
+                <a class="nav-link pb-0 " href="#">Game In Play</a>
+              </li>
+              <li class="nav-item ms-1">
+                <a class="nav-link pb-0 " href="#">End Game</a>
+              </li>
+              <!--<li class="nav-item ms-1">
+                <a class="nav-link" href="#">Registration Info</a>
+              </li>-->
             </ul>
 
           </div>
@@ -49,11 +59,8 @@
       <!-- Homepage - from bs form examples =================  -->
       <!-- https://getbootstrap.com/docs/5.0/examples/checkout -->
 
-      <section
-        class="sectionpage   align-items-center justify-content-center page py-5  align-items-center justify-content-center "
-        id="page-home">
+      <section class="sectionpage align-items-center justify-content-center page py-5 nothidden" id="page-home">
         <div class="pt-5 text-center">
-
           <h2 class="fw-bold pt-5">Welcome to</h2>
           <h1 class="welcome">
             <img class="d-block mx-auto mb-4 " src="img/5-5sFlashcards400x240.svg" alt="5-5s.com FlashCards" width="300"
@@ -63,138 +70,104 @@
         </div>
 
         <div class="py-1 text-center">
-          <h2>Select 5 topics to load 5 FlashCards for each topic.</h2>
-          <p class="fs-4 text">Trivia questions courtesy of https://opentdb.com/</p>
+          <h2>Select 5 topics to load FlashCards for each topic.</h2>
+          <p class="fs-4 text">FlashCard questions courtesy of https://opentdb.com/</p>
 
-          <div class="row py-4   ">
+          <!--Note: will eventually create select option lists with JS function. 
+            Need an array of objects w/ titles and corresponsing json file names 
+          for now, let's use static -->
+          <!-- need to create an addEventListener('change", "file.json') to read the category questions and answers -->
+          <div class="row py-4 mx-1 ">
             <div class="col px-1">
-              <select class="form-select form-select-sm" aria-label="Default select example">
-                <option selected>Select</option>
+              <form>
+                <select class="form-select form-select-sm" id="catSelect1">
+                  <option value="">Select Topic 1</option>
 
-                <option value="1">Animals
-                </option>
-                <option value="1">Art
-                </option>
-                <option value="1">Entertainment: Books
-                </option>
-                <option value="1">Entertainment: Cartoon &amp; Animations
-                </option>
-                <option value="1">Entertainment: Comics</option>
-                <option value="1">Science: Computers
-                </option>
-                <option value="1">Entertainment: Film
-                </option>
-                <option value="1">Science: Gadgets
-                </option>
-                <option value="1">General Knowledge
-                </option>
-                <option value="1">Geography
-                </option>
-                <option value="1">History
-                </option>
-                <option value="1">Entertainment: Japanese Anime &amp; Manga
-                </option>
-                <option value="1">Science: Mathematics
-                </option>
-                <option value="1">Entertainment: Music
-                </option>
-                <option value="1">Science &amp; Nature
-                </option>
-                <option value="1">Sports
-                </option>
-                <option value="1">Entertainment: Television
-                </option>
-                <option value="1">Entertainment: Video Games
-                </option>
+                  <option value="animals">Animals </option>
+                  <option value="art">Art </option>
+                  <option value="books">Books </option>
+                  <option value="cartoons">Cartoons</option>
+                  <option value="comics">Comics</option>
+                  <option value="computers">Computers </option>
+                  <option value="film">Film </option>
+                  <option value="gadgets">Gadgets </option>
+                  <!--<option value="general">General</option>
+                  <option value="geography">Geography </option>
+                  <option value="history">History </option>
+                  <option value="japaneseAnime">Japanese Anime</option>
+                  <option value="mathematics">Mathematics </option>
+                  <option value="music">Music </option>
+                  <option value="nature">Nature </option>
+                  <option value="sports">Sports </option>
+                  <option value="television">Television </option>
+                  <option value="videoGames">Video Games </option>-->
+                </select>
+              </form>
+            </div>
+            <div class="col px-1">
+              <select class="form-select form-select-sm" id="catSelect2">
+                <option value="">Select Topic 2</option>
 
-
-
-
+                <option value="animals">Animals </option>
+                <option value="art">Art </option>
+                <option value="books">Books </option>
+                <option value="cartoons">Cartoons</option>
+                <option value="comics">Comics</option>
+                <option value="computers">Computers </option>
+                <option value="film">Film </option>
+                <option value="gadgets">Gadgets </option>
               </select>
             </div>
             <div class="col px-1">
-              <form>
-                <select class="form-select form-select-sm" aria-label="Default select example">
-                  <option selected>Select</option>
+              <select class="form-select form-select-sm" id="catSelect3">
+                <option value="">Select Topic 3</option>
 
-                  <option value="1">Animals
-                  </option>
-                  <option value="1">Art
-                  </option>
-                  <option value="1">Entertainment: Books
-                  </option>
-                  <option value="1">Entertainment: Cartoon &amp; Animations
-                  </option>
-                  <option value="1">Entertainment: Comics</option>
-                  <option value="1">Science: Computers
-                  </option>
-                </select>
-              </form>
-
-            </div>
-            <div class="col px-1">
-              <form>
-                <select class="form-select form-select-sm" aria-label="Default select example">
-                  <option selected>Select</option>
-
-                  <option value="1">Animals
-                  </option>
-                  <option value="1">Art
-                  </option>
-                  <option value="1">Entertainment: Books
-                  </option>
-                  <option value="1">Entertainment: Cartoon &amp; Animations
-                  </option>
-                  <option value="1">Entertainment: Comics</option>
-                  <option value="1">Science: Computers
-                  </option>
-                </select>
-              </form>
-
-            </div>
-            <div class="col px-1">
-              <form>
-                <select class="form-select form-select-sm" aria-label="Default select example">
-                  <option selected>Select</option>
-
-                  <option value="1">Animals
-                  </option>
-                  <option value="1">Art
-                  </option>
-                  <option value="1">Entertainment: Books
-                  </option>
-                  <option value="1">Entertainment: Cartoon &amp; Animations
-                  </option>
-                  <option value="1">Entertainment: Comics</option>
-                  <option value="1">Science: Computers
-                  </option>
-                </select>
-              </form>
-
-            </div>
-            <div class="col px-1">
-              <select class="form-select form-select-sm" aria-label="Default select example">
-                <option selected>Select</option>
-
-                <option value="1">Animals
-                </option>
-                <option value="1">Art
-                </option>
-                <option value="1">Entertainment: Books
-                </option>
-                <option value="1">Entertainment: Cartoon &amp; Animations
-                </option>
-                <option value="1">Entertainment: Comics</option>
-                <option value="1">Science: Computers
-                </option>
+                <option value="animals">Animals </option>
+                <option value="art">Art </option>
+                <option value="books">Books </option>
+                <option value="cartoons">Cartoons</option>
+                <option value="comics">Comics</option>
+                <option value="computers">Computers </option>
+                <option value="film">Film </option>
+                <option value="gadgets">Gadgets </option>
               </select>
-
             </div>
+            <div class="col px-1">
+              <select class="form-select form-select-sm" id="catSelect4">
+                <option selected>Select Topic 4</option>
+
+                <option value="animals">Animals </option>
+                <option value="art">Art </option>
+                <option value="books">Books </option>
+                <option value="cartoons">Cartoons</option>
+                <option value="comics">Comics</option>
+                <option value="computers">Computers </option>
+                <option value="film">Film </option>
+                <option value="gadgets">Gadgets </option>
+              </select>
+            </div>
+            <div class="col px-1">
+              <select class="form-select form-select-sm" id="catSelect5">
+                <option value="">Select Topic 5</option>
+
+                <option value="animals">Animals </option>
+                <option value="art">Art </option>
+                <option value="books">Books </option>
+                <option value="cartoons">Cartoons</option>
+                <option value="comics">Comics</option>
+                <option value="computers">Computers </option>
+                <option value="film">Film </option>
+                <option value="gadgets">Gadgets </option>
+              </select>
+            </div>
+          </div>
+          <div class="alert alert-warning hidden fs-5" id="needAllAlerts" role="alert">
+            Please select all 5 topics
           </div>
 
           <div class="row">
             <div class="py-3 text-center">
-              <button type="submit" class="btn btn-primary btn-lg">Start Game</button>
+              <button type="submit" class="btn btn-primary btn-lg" id="startGame">Start Game</button>
             </div>
           </div>
 
@@ -204,54 +177,58 @@
 
       <div class="clear">&nbsp;</div>
 
-      <section class="sectionpage   align-items-center justify-content-center  ">
+      <section class="sectionpage align-items-center justify-content-center nothidden " id="" ins>
         <p class="lead text-muted">---------------- Page ---------------- </p>
 
         <div style="padding:20px;">&nbsp;</div>
         <h1 class="fw-bold">Game Instructions</h1>
-        <p class="fs-3 py-2 ">FlashCards is designed to be played using an online meeting
-          application such as Zoom. After selecting 5 topics, the conductor shares their screen displaying the
-          5-5s.com FlashCards game board with 5 columns each
+        <p class="fs-4 py-2 "><span class="fw-bold">5-5s.com/FlashCards</span> is designed to be played using an online
+          meeting
+          application such as Zoom. After selecting 5 topics, the conductor shares their screen displaying the game
+          board with 5 category columns each
           containing 5 FlashCards. When a FlashCard
-          is selected, all players must read the question and quickly try to be the first to type the correct answer in
-          the Zoom chat window wins the points for that question for their team.
+          is selected, all players read the question and quickly try to be the first to type the correct answer in
+          the Zoom chat window. The first correct reply wins the (5) points for that question for their team.
 
 
         </p>
         <div class="clear">&nbsp;</div>
 
-        <p class="fs-3 py-2 ">
+        <p class="fs-4 py-2 ">
           Players are grouped into teams based on their Zoom chat names. Names beginning with the letters A thru I are
-          on the red team. Those beginning with the letters J thru Q are on the blue team, and remaining players are on
-          the third, green team.
+          the Red team. Letters J thru Q are the Blue team, and the remaining players are the Green team.
 
         </p>
         <div class="clear">&nbsp;</div>
-        <p class="fs-3 py-2 ">
-          When a question is selected, a 5 second timer begins. The first person to answer correctly wins 5 points for
-          their team. The conductor, or a separate score keeper will attribute points to the winning players team. All
-          players who submit an incorrect answer are penalized by thier team score being reduced by one
-          point (so try to answer accurately). No points or penalties will be given to players submitting the correct
+        <p class="fs-4 py-2 ">
+          When a question is selected, a (5 or 8) second timer begins. The first person to answer correctly wins the (5)
+          points for
+          their team. The conductor will need to add the (5) points to the winning players team after each question is
+          answered
+          correctly. Any player who submits an incorrect answer will be penalized by costing thier team one
+          (1) point. No points or penalties will be attributed to players submitting a correct
           answer after the first correct answer is submitted. </p>
 
         <div class="clear">&nbsp;</div>
-        <p class="fs-3 py-2 ">
-          If one team answers all 5 questions in a category, that team gets an extra 5 point bonus. The team with
-          the highest score at the end of the game wins. </p>
+        <p class="fs-4 py-2 ">
+          If one team answers all 5 questions in a category, that team gets an extra 5 point bonus. The team with the
+          highest score at the end of the game wins. </p>
 
-        <div class="pad50">&nbsp;</div>
+        <div class="pad20">&nbsp;</div>
 
 
 
       </section>
+
+
       <div class="clear">&nbsp;</div>
 
 
-      <section class="sectionpage   align-items-center justify-content-center  ">
+      <section class="sectionpage align-items-center justify-content-center  ">
         <p class="lead text-muted">------------ Q: Page ------------ </p>
 
         <div class="p-1 m-1 bg-light rounded-4">
-          <div class="container-fluid py-5">
+          <div class=" py-5">
 
             <h5 class="display-7 p-3  fw-bold">Category Question 1</h5>
             <p class="fs-2  p-3 ">King Henry VIII was the second monarch of which European royal house?
@@ -273,12 +250,11 @@
 
 
       <div class="clear">&nbsp;</div>
-      <section class="sectionpage   align-items-center justify-content-center  section-answer">
+      <section class="sectionpage   align-items-center justify-content-center  section-answer nothidden">
         <p class="lead text-muted">------------ A: Page ------------ </p>
 
         <div class="p-1 m-1 bg-light rounded-4">
-          <div class="container-fluid py-2">
-
+          <div class=" py-2">
 
             <h5 class="display-7 py-2  fw-bold">Category Answer 1</h5>
             <p class="fs-1">Tudor
@@ -330,7 +306,7 @@
 
 
   <div class="clear">&nbsp;</div>
-  <section class="sectionpage   align-items-center justify-content-center  section-qaform">
+  <section class="sectionpage align-items-center justify-content-center section-qaform nothidden">
     <p class="lead text-muted">------------ Q & A Form ------------ </p>
 
 
@@ -347,13 +323,34 @@
 
 
   <div class="clear">&nbsp;</div>
+  <section class="sectionpage align-items-center justify-content-center section-endgame nothidden">
+    <p class="lead text-muted">------------ End Game ------------ </p>
 
-  <section class="sectionpage   align-items-center justify-content-center  section-gameboard  clear"
+
+    <div style="padding:20px;">&nbsp;</div>
+    <h1 class="fw-bold">End Game In Play?</h1>
+    <p class="fs-3 p-4 ">Are you sure you want to end the current game? </p>
+
+
+    <div class="row">
+      <div class="py-3 text-center">
+        <button type="submit" class="btn btn-primary btn-lg">End Game</button>
+      </div>
+    </div>
+
+    <div class="pad20">&nbsp;</div>
+
+  </section>
+
+
+
+
+
+  <div class="clear">&nbsp;</div>
+
+  <section class="sectionpage align-items-center justify-content-center section-gameboard clear nothidden"
     id="page-game-board">
     <p class="lead text-muted clear">-------- Game Board -------- </p>
-
-
-
 
     <div class="clear">&nbsp;</div>
 

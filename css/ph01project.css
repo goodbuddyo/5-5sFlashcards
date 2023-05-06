@@ -1,6 +1,4 @@
 
-/* following bootstrap example  https://getbootstrap.com/docs/5.0/examples/checkout/ */
-
 
 .fc-body {
     text-align: center;
@@ -20,18 +18,19 @@
     padding-bottom:200px;
 }
 
+.hidden {display:none;}
+section.sectionpage {min-width: 440px;}
+
 main.fc-main {    
   /*max-width: 960px; border: solid 1px red;
   min-width: 480px; */
   border:none;
 }
 
-
 .bg-dark-fcblue {
     --bs-bg-opacity: 1;
     background-color: #006dcc;
 }
-
 
 .fc-body .fc-main nav   {
   background-color: #006dcc;
@@ -40,30 +39,20 @@ color: #fff;
 
 .fc-main nav .nav-link{font-size:larger}
 
-
-
-
 .fc-body .fc-main  nav img {
   width: 100px;
 }
 
 .lead {font-size: 2.1em; }
 
-
-
 .fc-body .jepCol {
 	text-align: center;
 	margin: 0;
 	margin-top: 30px;
-	/* margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-	width: 970px;*/
 }
 
-
 .jepList {
-	height: 40px;
+	min-height: 40px;
   width: 100%;
 	min-width: 80px;
 	margin: 0;
@@ -72,7 +61,7 @@ color: #fff;
 }
 .jepList li {
 	list-style-type: none;
-	margin: 8px 2px;
+	margin: 4px 2px;
 	padding: 0;
 	min-width: 80px;
 	text-align: center;
@@ -111,7 +100,48 @@ color: #fff;
 	font-weight: bold;
 }
 
+.pad20 {padding: 10px;}
+
 section#page-game-board{display:block;}
+
+.textRed {color: red;}
+.textBlue {color: blue;}
+.textGreen {color: green;}
+
+   .col-1-spacer-div {
+      width: 2px; padding: 2px; font-size: 1px;
+    }
+
+/* On screens that are 480px wide or less, make the left col gameboard td narrow */
+  @media screen and (max-width: 480px) {
+   .col-1-spacer-div {
+      width: 2px; padding: 2px; font-size: 1px;
+    }
+    .minwidth75 {min-width:75px;}
+  }
+  @media (min-width: 500px) {   
+    body {display:block; } 
+    .minwidth75 {min-width:95px;}
+    .col-1-spacer-div {
+      width: 6px; ;
+    }
+  }    /* LT< 576px - Bootstrap default */
+  @media (min-width: 576px) {   
+    body {display:block; } 
+    .minwidth75 {min-width:100px;}
+    .col-1-spacer-div {
+      width: 10px; ;
+    }
+  }    /* LT< 576px - Bootstrap default */
+  @media (min-width: 768px) {    
+    body { display: block; }  
+    .minwidth75 {min-width:130px;}
+        .col-1-spacer-div {
+      width: 14px; ;
+    }
+  } /*  tablets, 768px and up */
+  @media (min-width: 992px) { body {display:block} .minwidth75 {min-width:160px;}}  /* desktops, 992px and up */
+  @media (min-width: 1200px) { body {display:block}  .minwidth75 {min-width:180px;}}  /* large desktops, 1200px and up  */
 
 
 
