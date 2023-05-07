@@ -1,0 +1,53 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The K\u0101k\u0101p\u014d is a large, flightless, nocturnal parrot native to which country?",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": [
+        "South Africa",
+        "Australia",
+        "Madagascar"
+      ]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the scientific name of the cheetah?",
+      "correct_answer": "Acinonyx jubatus",
+      "incorrect_answers": [
+        "Panthera onca",
+        "Lynx rufus",
+        "Felis catus"
+      ]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What dog bread is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+      "correct_answer": "Pugs",
+      "incorrect_answers": [
+        "Bulldogs",
+        "Boxers",
+        "Chihuahua"
+      ]
+    },
+    {
+      "category": "Animals",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "&quot;Decapods&quot; are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+      "correct_answer": "Krill",
+      "incorrect_answers": [
+        "Lobsters",
+        "Shrimp",
+        "Crabs"
+      ]
+    }
+  ]
+}
