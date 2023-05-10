@@ -61,17 +61,19 @@
 
       <section class="sectionpage align-items-center justify-content-center page py-5 nothidden" id="page-home">
         <div class="pt-5 text-center">
-          <h2 class="fw-bold pt-5">Welcome to</h2>
-          <h1 class="welcome">
-            <img class="d-block mx-auto mb-4 " src="img/5-5sFlashcards400x240.svg" alt="5-5s.com FlashCards" width="300"
+          <h1 class="fw-bold pt-5">Welcome to</h1>
+          <h2 class="welcome  pt-0">
+            <img class="d-block mx-auto mb-1 " src="img/5-5sFlashcards400x240.svg" alt="5-5s.com FlashCards" width="300"
               height="210">
-          </h1>
-          <h2 class="lead">A virtual meeting learning game.</h2>
+          </h2>
+          <h2 class="lead mb-4">A virtual meeting learning game</h2>
         </div>
 
-        <div class="py-1 text-center">
-          <h2>Select 5 topics to load FlashCards and start game.</h2>
-          <p class="fs-4 text">FlashCard questions courtesy of https://opentdb.com/</p>
+        <div class="py-2 text-center">
+          <h2>Select 5 topics<br>
+            5 FlashCards for each topic will be loaded<br>
+            and the game is set.</h2>
+          <p class="fs-5 py-2 text">FlashCard questions courtesy of https://opentdb.com/</p>
 
           <!-- use array of 18 topics to populate the 5 select options with a forEach.  For now, will use 5 static lists of select options -->
 
@@ -161,8 +163,8 @@
               </select>
             </div>
           </div>
-          <div class="alert alert-warning hidden fs-5" id="needAllAlerts" role="alert">
-            Please select all 5 topics
+          <div class="alert alert-warning hidden fs-5" id="missingSelectValue" role="alert">
+            Please select 5 topics
           </div>
 
           <div class="row">
@@ -231,13 +233,17 @@
           <div class=" py-5">
 
             <h5 class="display-7 p-3  fw-bold">Category Question 1</h5>
+            <p class="fs-4  pb-1 ">Difficulty: easy
+            </p>
             <p class="fs-2  p-3 ">King Henry VIII was the second monarch of which European royal house?
             </p>
-            <button class="btn btn-primary btn-lg" type="button">Answer</button>
-
             <div id="timer_img" class="p-5">
               <img src="img/timer_img.png">
             </div>
+
+
+            <button class="btn btn-primary btn-lg" type="button">Answer</button>
+
 
 
 
@@ -360,10 +366,64 @@
         <div class="col-1 ms-0 clear col-1-spacer-div">
           &nbsp;
         </div>
-        <div class=" col-2 px-0 clear minwidth75">
+
+        <!--  begin game board ===================== -->
+
+        <div class=" col-2 px-0 clear minwidth75" id="boardCol01">
+          <ul class="jepList ">
+
+          </ul>
+        </div>
+        <div class=" col-2 px-0 clear minwidth75" id="boardCol02">
+          <ul class="jepList ">
+
+          </ul>
+        </div>
+        <div class=" col-2 px-0 clear minwidth75" id="boardCol03">
+          <ul class="jepList ">
+
+          </ul>
+        </div>
+        <div class=" col-2 px-0 clear minwidth75" id="boardCol04">
+          <ul class="jepList ">
+
+          </ul>
+        </div>
+        <div class=" col-2 px-0 clear minwidth75" id="boardCol05">
+          <ul class="jepList ">
+
+          </ul>
+        </div>
+
+        <br><br>
+        <div class="clear py-5">&nbsp;</div>
+
+      </div>
+      <div class="clear">&nbsp;</div>
+    </div>
+
+
+
+
+
+    <!--  end game board ==================== -->
+
+
+    <div class="clear">&nbsp;</div>
+
+    <div class="py-1 ">
+      <div class="row gx-0 px-0 mx-0 justify-content-center ">
+        <!-- note: small screen has left and right cols because we're using 5 col-2 divs (not 6 ) -->
+        <div class="col-1 ms-0 clear col-1-spacer-div">
+          &nbsp;
+        </div>
+
+        <div class=" col-2 px-0 clear minwidth75 cat1">
           <ul class="jepList clear">
-            <li class="jepTopic clear">
-              <h3 class="d-flex align-items-center justify-content-center">Video Games</h3>
+            <li class="clear">
+              <span class="jepTopic">
+                <h3 class="d-flex align-items-center justify-content-center">Video Games</h3>
+              </span>
             </li>
             <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">1</a></li>
             <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">2</a></li>
@@ -372,10 +432,11 @@
             <li class="clear"><a class="jAnswer btn btn-primary clear" href="#">5</a></li>
           </ul>
         </div>
-        <div class=" col-2 px-0 clear minwidth75">
+        <div class=" col-2 px-0 clear minwidth75 cat2">
           <ul class="jepList ">
             <li class="jepTopic">
-              <h3 class="d-flex align-items-center justify-content-center">Art</h3>
+              <span class="jepTopic">
+                <h3 class="d-flex align-items-center justify-content-center">Art</h3>
             </li>
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">1</a></li>
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">2</a></li>
@@ -384,7 +445,7 @@
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">5</a></li>
           </ul>
         </div>
-        <div class=" col-2 px-0 clear minwidth75">
+        <div class=" col-2 px-0 clear minwidth75 cat3">
           <ul class="jepList ">
             <li class="jepTopic align-middle">
               <h3 class="d-flex align-items-center justify-content-center"> Music
@@ -398,7 +459,7 @@
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">5</a></li>
           </ul>
         </div>
-        <div class=" col-2 px-0 clear minwidth75">
+        <div class=" col-2 px-0 clear minwidth75 cat4">
           <ul class="jepList ">
             <li class="jepTopic align-middle">
               <h3 class="d-flex align-items-center justify-content-center">Television Celebrities</h3>
@@ -410,7 +471,7 @@
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">5</a></li>
           </ul>
         </div>
-        <div class=" col-2 px-0 clear minwidth75">
+        <div class=" col-2 px-0 clear minwidth75 cat5">
           <ul class="jepList ">
             <li class="jepTopic">
               <h3 class="d-flex align-items-center justify-content-center">Science</h3>
@@ -421,11 +482,10 @@
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">4</a></li>
             <li class="py-0"><a class="jAnswer btn btn-primary" href="#">5</a></li>
           </ul>
-          <br><br><br><br><br><br><br><br><br>
 
-          <div class="clear py-5">&nbsp;</div>
         </div>
-        <div class="clear">&nbsp;</div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="clear py-5">&nbsp;</div>
       </div>
       <div class="clear">&nbsp;</div>
     </div>

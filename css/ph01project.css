@@ -66,17 +66,18 @@ color: #fff;
 	min-width: 80px;
 	text-align: center;
 }
-.jepList li.jepTopic {
+.jepList .jepTopic,
+.jepList span.jepTopic {
 	background-color: skyblue;
 	color: black;
 	text-align: center;
 	border-radius: 4px;
 }
-.jepList li.jepTopic p {
+.jepList .jepTopic p {
 	text-align: center;
 }
-.jepList li.jepTopic h3,
-.jepList li.jepTopic h4 {
+.jepList .jepTopic h3,
+.jepList .jepTopic h4 {
 	margin: 0;
 	padding: 20px 4px;
 	font-size: 20px;

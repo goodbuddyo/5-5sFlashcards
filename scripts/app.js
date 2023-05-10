@@ -1,213 +1,166 @@
 
 window.addEventListener("DOMContentLoaded",() => {
-    //let all_select_values=[];
-    let dropdown01=document.getElementById("catSelect1");
-    let dropdown02=document.getElementById("catSelect2");
-    let dropdown03=document.getElementById("catSelect3");
-    let dropdown04=document.getElementById("catSelect4");
-    let dropdown05=document.getElementById("catSelect5");
+  //let all_select_values=[];
 
+  // grab the 5 topic HTML select elements by id
+  let dropdown01=document.getElementById("catSelect1");
+  let dropdown02=document.getElementById("catSelect2");
+  let dropdown03=document.getElementById("catSelect3");
+  let dropdown04=document.getElementById("catSelect4");
+  let dropdown05=document.getElementById("catSelect5");
+  let allValuesSet=false;
+  // let filteredQs not filtering so just use slicedArray
 
-    // if user reverts to empty select value, alert and clear array
-    dropdown01.addEventListener("change",(e) => {
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-            //all_select_values=[]
-        } else {
-            missingAlertMsg.add("hidden");
+  // display an alert to insure all 5 selects have a value
+  const checkAllSelectValues=function() {
+    if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
+      //console.log('somethings missing')
+      allValuesSet=false
+      missingAlertClassList.remove("hidden");
+    } else {
+      //console.log('all 5 have values')
+      allValuesSet=true
+      missingAlertClassList.add("hidden");
+    }
+  }
+
+  dropdown01.addEventListener("change",(e) => {
+    checkAllSelectValues();
+  });
+  dropdown02.addEventListener("change",(e) => {
+    checkAllSelectValues();
+  });
+  dropdown03.addEventListener("change",(e) => {
+    checkAllSelectValues();
+  });
+  dropdown04.addEventListener("change",(e) => {
+    checkAllSelectValues();
+  });
+  dropdown05.addEventListener("change",(e) => {
+    checkAllSelectValues();
+  });
+
+  const startFC=document.getElementById("startGame");
+  const missingAlert=document.getElementById("missingSelectValue");
+  const missingAlertClassList=missingAlert.classList;
+
+  startFC.addEventListener("click",(e) => {
+    e.preventDefault()
+    if(allValuesSet) {
+      //missingAlertClassList.add("hidden");
+      //let ddobjs=[dropdown01.value,dropdown02.value,dropdown03.value,dropdown04.value,dropdown05.value]
+      console.log('all vals are set')
+      let resultArray
+      let shuffledArray
+      //console.log(ddobjs)
+      // create an array of json urls for the 5 selected topics
+      let all_json_urls=[`json/${dropdown01.value}.json`,`json/${dropdown02.value}.json`,`json/${dropdown03.value}.json`,`json/${dropdown04.value}.json`,`json/${dropdown05.value}.json`]
+      //console.log(all_json_urls);
+      //console.log(all_json_urls[0]);
+      const getDataForSelectVal=async function(n) {
+        const response=await fetch(all_json_urls[n]);
+        questions=await response.json();
+        resultArray=questions.results
+        // create a copy of the results array
+        shuffledArray=[...resultArray];
+
+        // use a shuffle to get 5 random q's from the fetched json file
+        function shuffle(array) {
+          var currentIndex=array.length,temporaryValue,randomIndex;
+          // While there remain elements to shuffle...
+          while(0!==currentIndex) {
+            // Pick a remaining element...
+            randomIndex=Math.floor(Math.random()*currentIndex);
+            currentIndex-=1;
+            // And swap it with the current element.
+            temporaryValue=array[currentIndex];
+            array[currentIndex]=array[randomIndex];
+            array[randomIndex]=temporaryValue;
+          }
+          return array;
         }
-    });
-    dropdown02.addEventListener("change",(e) => {
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-            //all_select_values=[]
-        } else {
-            missingAlertMsg.add("hidden");
+        shuffledQs=shuffle(shuffledArray);
+
+        // slice out first 5 Qs from the shuffledQs array
+        // add qNum and qSrc properties for game board display
+        const slicedArray=shuffledQs.slice(0,5);
+        let q=1;
+        let qSrc;
+        for(let i=0;i<slicedArray.length;i++) {
+          slicedArray[i].qNum=q; // qs need a num for board
+          slicedArray[i].qSrc='';  // future qs will need src
+          console.log(slicedArray[i]);
+          q++
         }
-    });
-    dropdown03.addEventListener("change",(e) => {
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-            //all_select_values=[]
-        } else {
-            missingAlertMsg.add("hidden");
-        }
-    });
-    dropdown04.addEventListener("change",(e) => {
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-            //all_select_values=[]
-        } else {
-            missingAlertMsg.add("hidden");
-        }
-    });
-    dropdown05.addEventListener("change",(e) => {
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-            //all_select_values=[]
-        } else {
-            missingAlertMsg.add("hidden");
-        }
-    });
 
-    const startFlashCards=document.getElementById("startGame");
-    const missingAlert=document.getElementById("needAllAlerts");
-    const missingAlertMsg=missingAlert.classList;
+        function loadQuestions(n) {
+          console.log('load qs is called ')
+          //document.querySelector("#boardCol01 ul").innerHTML="";
+          if(n==0) {
+            document.querySelector('#boardCol01 ul').innerHTML="";
+          } else if(n==1) {
+            document.querySelector('#boardCol02 ul').innerHTML="";
+          } else if(n==2) {
+            document.querySelector('#boardCol03 ul').innerHTML="";
+          } else if(n==3) {
+            document.querySelector('#boardCol04 ul').innerHTML="";
+          } else {
+            document.querySelector('#boardCol05 ul').innerHTML="";
+          }
 
-    startFlashCards.addEventListener("click",(e) => {
-        e.preventDefault()
-        if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-            missingAlertMsg.remove("hidden");
-        } else {
-            missingAlertMsg.add("hidden");
-            //all_select_values=[]; // reset array
-            let ddobjs=[dropdown01.value,dropdown02.value,dropdown03.value,dropdown04.value,dropdown05.value]
-            let resultArray
-            let shuffledArray
-            //console.log(ddobjs)
 
-            //all_select_values.push('dropdown01.value',dropdown02.value,dropdown03.value,dropdown04.value,dropdown05.value)
-            // getting array of json urls got out of control
-            let all_json_urls=[`json/${dropdown01.value}.json`,`json/${dropdown02.value}.json`,`json/${dropdown03.value}.json`,`json/${dropdown04.value}.json`,`json/${dropdown05.value}.json`]
-            //console.log(all_json_urls);
-            //console.log(all_json_urls[0]);
-            const getSelectVal01=async function(n) {
-                const response=await fetch(all_json_urls[n]);
-                questions=await response.json();
-                resultArray=questions.results
-                shuffledArray=[...resultArray];
-                //console.log(resultArray);
+          let q;
 
-                //console.log(questions.results[0]);
-                //console.log(questions.results[0].category);
-                //console.log(questions.results[0].difficulty);
-                //console.log(questions.results[0].question);
-                //console.log(questions.results[0].correct_answer);
+          slicedArray.forEach(question => {
+            const li=document.createElement("li");
+            q=question.qNum
+            if(q==1) {
 
-                function shuffle(array) {
-                    var currentIndex=array.length,temporaryValue,randomIndex;
-                    // While there remain elements to shuffle...
-                    while(0!==currentIndex) {
-                        // Pick a remaining element...
-                        randomIndex=Math.floor(Math.random()*currentIndex);
-                        currentIndex-=1;
-                        // And swap it with the current element.
-                        temporaryValue=array[currentIndex];
-                        array[currentIndex]=array[randomIndex];
-                        array[randomIndex]=temporaryValue;
-                    }
-                    return array;
-                }
-                // Used like so
-                //var arr=[2,11,37,42];
-                arr=shuffle(shuffledArray);
-                //console.log(arr);
-                const slicedArray=arr.slice(0,5);
-                for(let i=0;i<slicedArray.length;i++) {
-                    console.log(slicedArray[i]);
-                }
+              li.innerHTML=`
+              <span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
+            </li>
+            <li class="clear">
+            <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+            `;
+
+            } else {
+              li.innerHTML=`
+            <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+            `;
             }
-            getSelectVal01(1);
 
-            // use a shuffle to allow conductor 5 q's to be unique
+            //document.querySelector('#boardCol01 ul').appendChild(li);
+
+
+
+            if(n==0) {
+              document.querySelector('#boardCol01 ul').appendChild(li);
+            } else if(n==1) {
+              document.querySelector('#boardCol02 ul').appendChild(li);
+            } else if(n==2) {
+              document.querySelector('#boardCol03 ul').appendChild(li);
+            } else if(n==3) {
+              document.querySelector('#boardCol04 ul').appendChild(li);
+            } else {
+              document.querySelector('#boardCol05 ul').appendChild(li);
+            }
+
+
+
+          })
         }
-        // look into Fisher-Yates shuffle to randomize the order of the returned questions
-        // https://stackoverflow.com/questions/3718282/javascript-shuffling-objects-inside-an-object-randomize
-        // https://www.webmound.com/shuffle-javascript-array/
-        // https://stackoverflow.com/questions/58307056/how-to-shuffle-array-of-objects
 
+        loadQuestions();
+      }
 
+      getDataForSelectVal(0);
+      getDataForSelectVal(1);
+      getDataForSelectVal(2);
+      getDataForSelectVal(3);
+      getDataForSelectVal(4);
+    }
 
-        //console.log(all_json_urls);
-        //console.log(all_json_urls[0]);
-        //const getSelectVal01=async function(n) {
-        //    const response=await fetch(all_json_urls[0]);
-        //    questions=await response.json();
-        //    console.log(questions.results[0]);
-        //    console.log(questions.results[0].category);
-        //    console.log(questions.results[0].difficulty);
-        //    console.log(questions.results[0].question);
-        //    console.log(questions.results[0].correct_answer);
-
-        //(5)['json/gadgets.json','json/film.json','json/computers.json','json/books.json','json/art.json']
-        //app.js: 73 json/gadgets.json
-        //app.js: 77 {category: 'Science: Gadgets',type: 'multiple',difficulty: 'medium',question: 'What are the base station trackers used for the HTC Vive called?',correct_answer: 'Lighthouse', …}
-        //app.js: 78 Science: Gadgets
-        //app.js: 79 medium
-        //app.js: 80 What are the base station trackers used for the HTC Vive called?
-        //    app.js:81 Lighthouse
-
-
-
-
-        // console.log(ddobjs)
-        //(5)['gadgets','animals','art','cartoons','computers']
-
-        //  console.log(all_json_urls[0]);
-        //app.js: 73 json/gadgets.json
-
-
-        //console.log(questions.results[2]);
-        //{category: 'History',type: 'multiple',difficulty: 'easy',question: 'What was William Frederick Cody better known as?',correct_answer: 'Buffalo Bill', …}
-
-
-
-        //  console.log(questions);
-        //app.js: 77
-        //{response_code: 0,results: Array(10)}
-        //response_code
-        //:
-        //0
-        //results
-        //:
-        //Array(10)
-        //0
-        //:
-        //category
-        //:
-        //"Science: Gadgets"
-        //correct_answer
-        //:
-        //"Lighthouse"
-        //difficulty
-        //:
-        //"medium"
-        //incorrect_answers
-        //:
-        //(3)['Motion','Constellation ','Trackers']
-        //question
-        //:
-        //"What are the base station trackers used for the HTC Vive called?"
-        //type
-        //:
-        //"multiple"
-        //[[Prototype]]
-        //:
-        //Object
-        //1
-        //:
-        //{category: 'Science: Gadgets',type: 'multiple',difficulty: 'medium',question: 'Which company designed the &quot;Betamax&quot; video cassette format?',correct_answer: 'Sony', …}
-        //2
-        //:
-        //{category: 'Science: Gadgets',type: 'multiple',difficulty: 'hard',question: 'Which of the following is the standard THX subwoofer crossover frequency?',correct_answer: '80 Hz', …}
-
-
-    });
-    // note: updated all_select_values is out of scope here
-})
-
-//app.js: 75     GET http://127.0.0.1:5500/json/[object%20HTMLSelectElement].json 404 (Not Found)
-//getSelectVal @app.js: 75
-//    (anonymous) @app.js: 80
-//VM703: 1 Uncaught(in promise) SyntaxError: Unexpected token '<',"<!DOCTYPE "... is not valid JSON
-
-        // note: stack overflow says cannot use forEach with async operation
-        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach#description
-        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#composition
-
-        // for each selected topic, fetch the appropriate json file
-        //fetchurls=[]
-        //all_select_values.forEach((element) => {
-        //    console.log(element)
-        //});
+  });
+  // note: updated all_select_values is out of scope here
+});
 
