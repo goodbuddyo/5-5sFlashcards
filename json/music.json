@@ -2,7 +2,7 @@
   "response_code": 0,
   "results": [
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the artist of the recent new album the Uncanny Valley?",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which French duo had UK hits in 1998 with the songs &#039;Sexy Boy&#039;, &#039;Kelly Watch The Stars&#039; &amp; &#039;All I Need&#039;?",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the founder and leader of industrial rock band, &#039;Nine Inch Nails&#039;?",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which popular rock band has a one-armed drummer?",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which singer was featured in Swedish producer Avicii&#039;s song &quot;Wake Me Up&quot;?",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Irish musician Hozier released a music track in 2013 titled, &quot;Take Me to ______&quot;",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which song is not by TheFatRat?",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "EDM record label Monstercat is based in which country?",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is NOT a song on The Beatles&#039; 1968 self titled album, also known as the White album?",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the lead singer of Silverchair?",
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 &quot;Need You&quot;?",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What animal is featured on the cover of English electronic music group The Prodigy&#039;s album, &quot;The Fat of the Land&quot;?",
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which one of these Rammstein songs has two official music videos?",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Pink Floyd made this song for their previous lead singer Syd Barrett.",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What is the real name of Canadian electronic music producer deadmau5?",
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What is the relationship between the band members of American rock band King of Leon?",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which famous 90&#039;s rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who recorded the album called &quot;Down to the Moon&quot; in 1986?",
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What was Radiohead&#039;s first album?",
@@ -266,7 +266,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is not an Ed Sheeran album?",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "In what film was the Michael Jackson song &quot;Will You Be There&quot; featured?",
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Cryoshell, known for &quot;Creeping in My Soul&quot; did the advertising music for what Lego Theme?",
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What is the first track on Kanye West&#039;s 808s &amp; Heartbreak?",
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the lead singer of Bastille?",
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the lead singer of The Lumineers?",
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Ellie Goulding&#039;s earliest album was named?",
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is NOT a song by Pegboard Nerds?",
@@ -362,7 +362,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which rapper had an album that went double platinum with no features?",
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these songs is not on the &quot;untitled&quot; album by Led Zeppelin?",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the vocalist and frontman of rock band &quot;Guns N&#039; Roses&quot;?",
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What was David Bowie&#039;s real surname?",
@@ -410,7 +410,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What is rapper Drake&#039;s real name?",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which artist or group did John Lennon consider &quot;son(s) of the Beatles&quot;?",
@@ -434,7 +434,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which album by American rapper Kanye West contained songs such as &quot;Love Lockdown&quot;, &quot;Paranoid&quot; and &quot;Heartless&quot;?",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which Iron Maiden album did the song &quot;Dream of Mirrors&quot; feature in?",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "The &#039;In the Flesh&#039; tour was used in support of what Pink Floyd album?",
@@ -470,7 +470,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Who is the lead singer of the Smashing Pumpkins?",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Liam Howlett founded which electronic music group in 1990?",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "&#039;74&ndash;&#039;75 is a 1993 single from the album Ring by what American band?",
@@ -506,7 +506,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which song made by MAN WITH A MISSION was used as the opening for the anime &quot;Log Horizon&quot;?",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What was the name of the Wu-Tang Clan album Martin Shkreli bought for $2 million dollars?",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "In August 1964, who introduced the Beatles to cannabis?",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which genre of Hip Hop does MC Frontalot rap?",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of these is not a member of the virtual band Gorillaz?",
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What was The Velvet Underground&#039;s first album called?",
@@ -578,7 +578,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "The Proclaimers - I&#039;m Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of the following music bands is not from Finland?",
