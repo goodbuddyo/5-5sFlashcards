@@ -9,16 +9,13 @@ window.addEventListener("DOMContentLoaded",() => {
   let dropdown04=document.getElementById("catSelect4");
   let dropdown05=document.getElementById("catSelect5");
   let allValuesSet=false;
-  // let filteredQs not filtering so just use slicedArray
 
   // display an alert to insure all 5 selects have a value
   const checkAllSelectValues=function() {
     if(dropdown01.value==''||dropdown02.value==''||dropdown03.value==''||dropdown04.value==''||dropdown05.value=='') {
-      //console.log('somethings missing')
       allValuesSet=false
       missingAlertClassList.remove("hidden");
     } else {
-      //console.log('all 5 have values')
       allValuesSet=true
       missingAlertClassList.add("hidden");
     }
@@ -52,12 +49,9 @@ window.addEventListener("DOMContentLoaded",() => {
     if(allValuesSet) {
       // create an array of json urls for the 5 selected topics
       let json_urls=[`json/${dropdown01.value}.json`,`json/${dropdown02.value}.json`,`json/${dropdown03.value}.json`,`json/${dropdown04.value}.json`,`json/${dropdown05.value}.json`]
-      //console.log(json_urls);
-      //console.log(json_urls[0]);
-
       let resultArray
       let shuffledArray
-      let slicedArray1,slicedArray2,slicedArray3,slicedArray4,slicedArray5
+      let slicedArray1=[],slicedArray2=[],slicedArray3=[],slicedArray4=[],slicedArray5=[]
 
       // fetch the qs for topic n
       const getDataForSelectVal=async function(n) {
@@ -85,10 +79,6 @@ window.addEventListener("DOMContentLoaded",() => {
 
         shuffledQs=shuffle(shuffledArray);
 
-        // 
-
-
-
         // slice out first 5 Qs from the shuffledQs array
         // add qNum and qSrc properties for game board display
         const slicedArray=shuffledQs.slice(0,5);
@@ -97,152 +87,171 @@ window.addEventListener("DOMContentLoaded",() => {
         for(let i=0;i<slicedArray.length;i++) {
           slicedArray[i].qNum=q; // to display q number on board
           slicedArray[i].qSrc='test';  // future qs will need src
-          console.log(slicedArray[i]);
           q++
         }
         if(n==0) {
-          console.log(n);
           slicedArray1=[...slicedArray]
         } else if(n==1) {
-          console.log(n);
           slicedArray2=[...slicedArray]
         } else if(n==2) {
-          console.log(n);
           slicedArray3=[...slicedArray]
         } else if(n==3) {
-          console.log(n);
           slicedArray4=[...slicedArray]
         } else if(n=4) {
-          console.log(n);
           slicedArray5=[...slicedArray]
         }
         else {
           console.log('param for loadQuestions must be 0 - 4')
         }
 
-        function loadQuestions(n) {
-          //console.log('load qs is called ')
-          //document.querySelector("#boardCol01 ul").innerHTML="";
-          if(n==0) {
-            console.log(n);
+        function loadQuestions(num) {
+          if(num==0) {
             document.querySelector('#boardCol01 ul').innerHTML="";
-          } else if(n==1) {
-            console.log(n);
+          } else if(num==1) {
             document.querySelector('#boardCol02 ul').innerHTML="";
-          } else if(n==2) {
-            console.log(n);
+          } else if(num==2) {
             document.querySelector('#boardCol03 ul').innerHTML="";
-          } else if(n==3) {
-            console.log(n);
+          } else if(num==3) {
             document.querySelector('#boardCol04 ul').innerHTML="";
-          } else if(n==4) {
-            console.log(n);
+          } else if(num==4) {
             document.querySelector('#boardCol05 ul').innerHTML="";
           } else {
             console.error('loadQuestions param must be 0 - 4');
           };
           let q;
-          if(n==0) {
-            //console.log(slicedArray1[0])\
-
-            console.log('slicedArray1 is array?')
-            console.log(Array.isArray(slicedArray1));
+          if(num==0) {
             slicedArray1.forEach(question => {
               const li=document.createElement("li");
               q=question.qNum
               if(q==1) {
-                // set topic li and q 1 li
+                // for the first q create both topic li and Q1 li
                 li.innerHTML=`
                 <span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
                 </li>
                 <li class="clear">
-                <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
                 `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               } else {
-                // qs 2 - 4
+                // qs 2 - 4 just innerHTML the number and href
                 li.innerHTML=`
-            <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
-            `;
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
+                `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               };
               document.querySelector('#boardCol01 ul').appendChild(li);
             });
-          } else if(n==1) {
-            console.log('slicedArray2 is array?')
-            console.log(Array.isArray(slicedArray2));
+
+
+          } else if(num==1) {
             slicedArray2.forEach(question => {
               const li=document.createElement("li");
-              q=question.qNum
+              q=question.qNum;
+
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>`;
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               } else {
-                li.innerHTML=` <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+                li.innerHTML=` <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
             `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question);
+                })
               };
               document.querySelector('#boardCol02 ul').appendChild(li);
             });
-          } else if(n==2) {
-            console.log('slicedArray3 is array?')
-            console.log(Array.isArray(slicedArray3));
-            console.log(slicedArray3[0])
+
+
+          } else if(num==2) {
             slicedArray3.forEach(question => {
               const li=document.createElement("li");
               q=question.qNum
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>`;
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               } else {
-                li.innerHTML=` <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+                li.innerHTML=` <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
             `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               };
               document.querySelector('#boardCol03 ul').appendChild(li);
             });
-          } else if(n==3) {
-            console.log('slicedArray4 is array?')
-            console.log(Array.isArray(slicedArray4));
-            console.log(slicedArray4[0])
+
+
+          } else if(num==3) {
             slicedArray4.forEach(question => {
               const li=document.createElement("li");
               q=question.qNum
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>`;
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               } else {
-                li.innerHTML=` <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+                li.innerHTML=` <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
             `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               };
               document.querySelector('#boardCol04 ul').appendChild(li);
             });
-          } else if(n==4) {
-            console.log('slicedArray5 is array?')
-            console.log(Array.isArray(slicedArray5));
-            //console.log(slicedArray5[0])
+
+
+          } else if(num==4) {
             slicedArray5.forEach(question => {
               const li=document.createElement("li");
               q=question.qNum
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${question.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>`;
+                <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               } else {
-                li.innerHTML=` <a class="jAnswer btn btn-primary" href="#">${question.qNum}</a>
+                li.innerHTML=` <a class="jAnswer spa-link btn btn-primary" href="/myquestion">${q}</a>
             `;
+                li.addEventListener("click",() => {
+                  goTo("/myquestion",question)
+                })
               }
               document.querySelector('#boardCol05 ul').appendChild(li);
             }
             );
           } else {
-            console.error('loadQuestions param must be 1 - 5');
+            console.error('loadQuestions param must be 0 - 4');
           };
         };
+
+        // end function declaration loadQuestions
+
+
         loadQuestions(0);
         loadQuestions(1);
         loadQuestions(2);
         loadQuestions(3);
         loadQuestions(4);
+        // hide homepage, display game board page
+        document.querySelectorAll(".page").forEach(e => e.hidden=true);
+        // render the new page
+        document.getElementById("fcGameBoard").hidden=false;
       };
 
       getDataForSelectVal(0);
@@ -250,9 +259,17 @@ window.addEventListener("DOMContentLoaded",() => {
       getDataForSelectVal(2);
       getDataForSelectVal(3);
       getDataForSelectVal(4);
+    } else {
+      console.log('Please select all 5 topics')
     };
 
   });
+
+
   // note: updated all_select_values is out of scope here
 });
 
+
+function renderQuestionDetails(question) {
+  console.log(question[0].category)
+}
