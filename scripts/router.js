@@ -1,8 +1,6 @@
 
 
 
-
-
 window.addEventListener("DOMContentLoaded",() => {
   document.querySelectorAll("a.spa-link").forEach(element => {
     element.addEventListener("click",event => {
@@ -29,13 +27,9 @@ function goTo(path,data) {
   renderRoute(data);
 }
 
-// note: in the tutorial "data" for goTo is provided through loadEvents "forEach(event => "
-//filteredEvents.forEach(event => {
-//  const tr=document.createElement("tr");
-//  tr.innerHTML=` <td class="event-image"> .... ${event.image}
-// .... goTo("/details", event);
-
-// so the phase-1 "data" will be provided in the 5 slicedArray objects (app.js) 
+// note: in the "data" for goTo was provided through loadEvents "forEach(event => "
+// forEach(event => {
+// in this project, the "data" will be provided in the 5 slicedArray objects (app.js) 
 // slicedArray1.forEach(question => {
 function renderRoute(data) {
   const path=document.location.pathname;
@@ -54,7 +48,6 @@ function renderRoute(data) {
       break;
     case "/gameboard":
       document.getElementById("fcGameBoard").hidden=false;
-      //renderQuestionDetails(data);
       break;
     case "/myquestion":
       document.getElementById("fcQuestion").hidden=false;
@@ -62,10 +55,9 @@ function renderRoute(data) {
       break;
     case "/answer":
       document.getElementById("fcAnswer").hidden=false;
-      //renderQuestionDetails(data);
       break;
 
-    // note: startGame button routes to fcGameBoard in app.js
+    // note: startGame button routes to fcGameBoard in app.js (not router.js)
 
   }
 }

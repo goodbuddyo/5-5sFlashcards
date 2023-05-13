@@ -1,12 +1,9 @@
 
 
+// credit Maximiliano Firtman and Corey House for help with many features
 
 window.addEventListener("DOMContentLoaded",() => {
   //let all_select_values=[];
-
-  // unsuccessful attempt chg gameboard used link colors 
-  //function myFunction(element,clr) {
-  //  element.style.color=clr; }
 
   // grab the 5 topic HTML select elements by id
   let dropdown01=document.getElementById("catSelect1");
@@ -137,6 +134,7 @@ window.addEventListener("DOMContentLoaded",() => {
               // for goTo() to work in the gameboard li item clicks
               li.addEventListener("click",() => {
                 goTo("/myquestion",questionData);
+
               });
               q=questionData.q_num
               if(q==1) {
