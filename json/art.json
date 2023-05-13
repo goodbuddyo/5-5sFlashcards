@@ -5,7 +5,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which artist&rsquo;s studio was known as &#039;The Factory&#039;?",
+      "question": "Which artist&rsquo;s studio was known as 'The Factory'?",
       "correct_answer": "Andy Warhol",
       "incorrect_answers": [
         "Roy Lichtenstein",
@@ -23,30 +23,6 @@
         "The Sea of Ice",
         "Wanderer above the Sea of Fog",
         "The Monk by the Sea"
-      ]
-    },
-    {
-      "category": "Art",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which artist&#039;s style was to use small different colored dots to create a picture?",
-      "correct_answer": "Georges Seurat",
-      "incorrect_answers": [
-        "Paul C&eacute;zanne",
-        "Vincent Van Gogh",
-        "Henri Rousseau"
-      ]
-    },
-    {
-      "category": "Art",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of these is not an additional variation of the color purple?",
-      "correct_answer": "Kobicha",
-      "incorrect_answers": [
-        "Byzantium",
-        "Pomp and Power",
-        "Palatinate"
       ]
     },
     {
@@ -161,7 +137,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Albrecht D&uuml;rer&#039;s birthplace and place of death were in...",
+      "question": "Albrecht D&uuml;rer's birthplace and place of death were in...",
       "correct_answer": "N&uuml;rnberg",
       "incorrect_answers": [
         "Augsburg",
@@ -197,7 +173,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who painted &quot;Swans Reflecting Elephants&quot;, &quot;Sleep&quot;, and &quot;The Persistence of Memory&quot;?",
+      "question": "Who painted 'Swans Reflecting Elephants', 'Sleep', and &'The Persistence of Memory'?",
       "correct_answer": "Salvador Dali",
       "incorrect_answers": [
         "Jackson Pollock",
@@ -209,7 +185,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these are the name of a famous marker brand?",
+      "question": "Which of these are the name of a famous marker brand? Dopix, Marx, Cofix, Copic ",
       "correct_answer": "Copic",
       "incorrect_answers": [
         "Dopix",
@@ -221,7 +197,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which artist&#039;s style was to use small different colored dots to create a picture?",
+      "question": "Which artist's style was to use small different colored dots to create a picture?",
       "correct_answer": "Georges Seurat",
       "incorrect_answers": [
         "Paul C&eacute;zanne",
@@ -233,7 +209,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these is not an additional variation of the color purple?",
+      "question": "Which of these is not an additional variation of the color purple? Byzantium, Pomp and Power, Kobicha, Palatinate ",
       "correct_answer": "Kobicha",
       "incorrect_answers": [
         "Byzantium",
@@ -280,20 +256,8 @@
     {
       "category": "Art",
       "type": "multiple",
-      "difficulty": "easy",
-      "question": "Which painting was not made by Vincent Van Gogh?",
-      "correct_answer": "The Ninth Wave",
-      "incorrect_answers": [
-        "Caf&eacute; Terrace at Night",
-        "Bedroom In Arles",
-        "Starry Night"
-      ]
-    },
-    {
-      "category": "Art",
-      "type": "multiple",
       "difficulty": "hard",
-      "question": "The painting &quot;The Starry Night&quot; by Vincent van Gogh was part of which art movement?",
+      "question": "The painting 'The Starry Night' by Vincent van Gogh was part of which art movement?",
       "correct_answer": "Post-Impressionism",
       "incorrect_answers": [
         "Romanticism",

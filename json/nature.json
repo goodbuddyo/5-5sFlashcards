@@ -29,7 +29,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these bones is hardest to break?",
+      "question": "Which of these bones is hardest to break? Cranium, Humerus, Femur, Tibia ",
       "correct_answer": "Femur",
       "incorrect_answers": [
         "Cranium",
@@ -53,7 +53,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What does the letter &#039;S&#039; stand for in &#039;NASA&#039;?",
+      "question": "What does the letter 'S' stand for in 'NASA'?",
       "correct_answer": "Space",
       "incorrect_answers": [
         "Science",
@@ -65,7 +65,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which element has the chemical symbol &#039;Fe&#039;?",
+      "question": "Which element has the chemical symbol 'Fe'?",
       "correct_answer": "Iron",
       "incorrect_answers": [
         "Gold",
@@ -281,7 +281,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Alzheimer&#039;s disease primarily affects which part of the human body?",
+      "question": "Alzheimer's disease primarily affects which part of the human body?",
       "correct_answer": "Brain",
       "incorrect_answers": [
         "Lungs",
@@ -461,7 +461,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "71% of the Earth&#039;s surface is made up of",
+      "question": "71% of the Earth's surface is made up of",
       "correct_answer": "Water",
       "incorrect_answers": [
         "Deserts",
@@ -497,7 +497,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What animal takes part in Schr&ouml;dinger&#039;s most famous thought experiment?",
+      "question": "What animal takes part in Schr&ouml;dinger's most famous thought experiment?",
       "correct_answer": "Cat",
       "incorrect_answers": [
         "Dog",
@@ -569,7 +569,7 @@
       "category": "Science & Nature",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these Elements is a metalloid?",
+      "question": "Which of these Elements is a metalloid? Antimony, Tin, Bromine, Rubidium ",
       "correct_answer": "Antimony",
       "incorrect_answers": [
         "Tin",

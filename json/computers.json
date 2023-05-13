@@ -65,7 +65,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
+      "question": "In the programming language Java, what keyword would you put on a variable to make sure it does not get modified?",
       "correct_answer": "Final",
       "incorrect_answers": [
         "Static",
@@ -78,10 +78,10 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "What does the Prt Sc button do?",
-      "correct_answer": "Captures what&#039;s on the screen and copies it to your clipboard",
+      "correct_answer": "Captures what's on the screen and copies it to your clipboard",
       "incorrect_answers": [
         "Nothing",
-        "Saves a .png file of what&#039;s on the screen in your screenshots folder in photos",
+        "Saves a .png file of what's on the screen in your screenshots folder in photos",
         "Closes all windows"
       ]
     },
@@ -106,14 +106,14 @@
       "incorrect_answers": [
         "United States",
         "Germany",
-        "China (People&#039;s Republic of)"
+        "China (People's Republic of)"
       ]
     },
     {
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+      "question": "Nvidia's headquarters are based in which Silicon Valley city?",
       "correct_answer": "Santa Clara",
       "incorrect_answers": [
         "Palo Alto",
@@ -265,7 +265,7 @@
       "category": "Science: Computers",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "A Boolean value of &quot;0&quot; represents which of these words?",
+      "question": "A Boolean value of 0 represents what value?",
       "correct_answer": "False",
       "incorrect_answers": [
         "True"
@@ -347,7 +347,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library?",
+      "question": "Which of these was the name of a bug found in April 2014 in the publicly available OpenSSL cryptography library? Shellshock, Corrupted Blood, Shellscript, Heartbleed",
       "correct_answer": "Heartbleed",
       "incorrect_answers": [
         "Shellshock",
@@ -384,11 +384,11 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "In any programming language, what is the most common way to iterate through an array?",
-      "correct_answer": "&#039;For&#039; loops",
+      "correct_answer": "'For' loops",
       "incorrect_answers": [
-        "&#039;If&#039; Statements",
-        "&#039;Do-while&#039; loops",
-        "&#039;While&#039; loops"
+        "'If' Statements",
+        "'Do-while' loops",
+        "'While' loops"
       ]
     },
     {
@@ -443,7 +443,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+      "question": "The programming language 'Swift' was created to replace what other programming language?",
       "correct_answer": "Objective-C",
       "incorrect_answers": [
         "C#",
@@ -467,7 +467,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+      "question": "If you were to code software in this language you'd only be able to type 0's and 1's.",
       "correct_answer": "Binary",
       "incorrect_answers": [
         "JavaScript",

@@ -11,31 +11,32 @@ window.addEventListener("DOMContentLoaded",() => {
     })
   })
 });
-// note: the spa-link a tags in the gameboard 
+// note: the spa-link <a> tags in the gameboard 
 // are not created until after the 5 topics are submitted.
-// so a similar forEach() and addEventListner function are added
+// so a similar forEach() and addEventListner function have been added
 // in app.js after loadQuestions() is invoked
 
-// enable browser forward and back buttons
+// eventListner to enable browser forward and back buttons 
+// removed the (data) arg here to address "data not defined" error
 window.addEventListener("popstate",event => {
-  renderRoute(data);
+  renderRoute();
+
 });
 
 // add existing page to history, display next page
 function goTo(path,data) {
   history.pushState(data,null,path);
-  console.log(path);
-  // note: getting undefined error for data 
-  //console.log(data);
   renderRoute(data);
 }
 
-// note: in tutorial "data" for goTo is provided through loadEvents "forEach(event => "
+// note: in the tutorial "data" for goTo is provided through loadEvents "forEach(event => "
 //filteredEvents.forEach(event => {
 //  const tr=document.createElement("tr");
 //  tr.innerHTML=` <td class="event-image"> .... ${event.image}
-// .... goTo("/details", event);x1
-1
+// .... goTo("/details", event);
+
+// so the phase-1 "data" will be provided in the 5 slicedArray objects (app.js) 
+// slicedArray1.forEach(question => {
 function renderRoute(data) {
   const path=document.location.pathname;
   // hide previous page

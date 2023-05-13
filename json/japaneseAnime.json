@@ -42,11 +42,11 @@
       "type": "multiple",
       "difficulty": "hard",
       "question": "In the anime Initial D, how does Takumi Fujiwara describe a drift?",
-      "correct_answer": "&#039;. . . the front tires slide so the car won&#039;t face the inside&#039;",
+      "correct_answer": "'. . . the front tires slide so the car won't face the inside'",
       "incorrect_answers": [
-        "&#039;. . . the wheels lose traction, making the car slide sideways&#039;",
-        "&#039;. . . the car oversteers through a curve, causing it to turn faster&#039;",
-        "&#039;. . . you turn a lot&#039;"
+        "'. . . the wheels lose traction, making the car slide sideways'",
+        "'. . . the car oversteers through a curve, causing it to turn faster'",
+        "'. . . you turn a lot'"
       ]
     },
     {
@@ -77,7 +77,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What year was &quot;JoJo&#039;s Bizarre Adventure: Phantom Blood&quot; first released?",
+      "question": "What year was &quot;JoJo's Bizarre Adventure: Phantom Blood&quot; first released?",
       "correct_answer": "1987",
       "incorrect_answers": [
         "2013",
@@ -89,7 +89,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Ash Ketchum&#039;s second Pokemon?",
+      "question": "What was Ash Ketchum's second Pokemon?",
       "correct_answer": "Caterpie",
       "incorrect_answers": [
         "Charmander",
@@ -104,7 +104,7 @@
       "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
       "correct_answer": "&quot;How disgusting.&quot;",
       "incorrect_answers": [
-        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+        "&quot;Idiot, I won't let you kill me!&quot;",
         "&quot;Nothing.&quot;",
         "&quot;Goddammit, Shinji.&quot;"
       ]
@@ -113,7 +113,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The main antagonist of the second part of JoJo&#039;s Bizarre Adventure is which of the following?",
+      "question": "The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?",
       "correct_answer": "Kars",
       "incorrect_answers": [
         "Erina Joestar",
@@ -245,7 +245,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Akatsuki&#039;s subclass in &quot;Log Horizon&quot; is what?",
+      "question": "Akatsuki's subclass in &quot;Log Horizon&quot; is what?",
       "correct_answer": " Tracker",
       "incorrect_answers": [
         "Assassin",
@@ -305,7 +305,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What year does Part 7 of &quot;JoJo&#039;s Bizarre Adventure&quot; take place in?",
+      "question": "What year does Part 7 of &quot;JoJo's Bizarre Adventure&quot; take place in?",
       "correct_answer": "1890",
       "incorrect_answers": [
         "1888",
@@ -377,7 +377,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Little Witch Academia&quot;, what is Shiny Chariot&#039;s alias at Luna Nova Academy?",
+      "question": "In &quot;Little Witch Academia&quot;, what is Shiny Chariot's alias at Luna Nova Academy?",
       "correct_answer": "Ursula Callistis",
       "incorrect_answers": [
         "Croix Meridies",
@@ -389,7 +389,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In Ms. Kobayashi&#039;s Dragon Maid, who is Kobayashi&#039;s maid?",
+      "question": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
       "correct_answer": "Tohru",
       "incorrect_answers": [
         "Lucoa",
@@ -402,7 +402,7 @@
       "type": "multiple",
       "difficulty": "hard",
       "question": "In &quot;Jewelpet Sunshine&quot;, what is the song that plays when Kanon and her friends bust out of prison?",
-      "correct_answer": "I Don&#039;t Want to Miss a Thing",
+      "correct_answer": "I Don't Want to Miss a Thing",
       "incorrect_answers": [
         "Eye Of The Tiger",
         "Born to be Wild",
@@ -425,7 +425,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka&#039;s younger brother?",
+      "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka's younger brother?",
       "correct_answer": "Tatsuya",
       "incorrect_answers": [
         "Montoya",
@@ -474,7 +474,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "What is the theme song of &quot;Neon Genesis Evangelion&quot;?",
-      "correct_answer": "A Cruel Angel&#039;s Thesis",
+      "correct_answer": "A Cruel Angel's Thesis",
       "incorrect_answers": [
         "Stardust Crusaders",
         "Requiem for a Dream",
@@ -497,7 +497,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of Funny Valentine&#039;s stand in Jojo&#039;s Bizarre Adventure Part 7, Steel Ball Run?",
+      "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
       "correct_answer": "Dirty Deeds Done Dirt Cheap",
       "incorrect_answers": [
         "Filthy Acts Done For A Reasonable Price",
@@ -509,7 +509,7 @@
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;JoJo&#039;s Bizzare Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?",
+      "question": "In &quot;JoJo's Bizzare Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?",
       "correct_answer": "Kujo",
       "incorrect_answers": [
         "Cujoh",
@@ -574,14 +574,14 @@
       "incorrect_answers": [
         "Princess Mononoke",
         "Spirited Away",
-        "Kiki&#039;s Delivery Service"
+        "Kiki's Delivery Service"
       ]
     },
     {
       "category": "Japanese Anime & Manga",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the series JoJo&#039;s Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
+      "question": "In the series JoJo's Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
       "correct_answer": "Jotaro Kujo",
       "incorrect_answers": [
         "Giorno Giovanna",

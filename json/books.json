@@ -5,7 +5,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was the name of Captain Nemo&#039;s submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+      "question": "What was the name of Captain Nemo's submarine in &quot;20,000 Leagues Under the Sea&quot;?",
       "correct_answer": "The Nautilus",
       "incorrect_answers": [
         "The Neptune",
@@ -17,7 +17,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is Hermione Granger&#039;s middle name?",
+      "question": "What is Hermione Granger's middle name?",
       "correct_answer": "Jean",
       "incorrect_answers": [
         "Jane",
@@ -29,7 +29,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, &#039;Oliver Twist&#039;?",
+      "question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
       "correct_answer": "The Artful Dodger",
       "incorrect_answers": [
         "Fagin",
@@ -41,7 +41,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which famous spy novelist wrote the childrens&#039; story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+      "question": "Which famous spy novelist wrote the childrens' story &quot;Chitty-Chitty-Bang-Bang&quot;?",
       "correct_answer": "Ian Fleming",
       "incorrect_answers": [
         "Joseph Conrad",
@@ -65,7 +65,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer&#039;s Stone?",
+      "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
       "correct_answer": "Fluffy",
       "incorrect_answers": [
         "Spike",
@@ -77,7 +77,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these book series is by James Patterson?",
+      "question": "Which of these book series is by James Patterson? Maximum Ride, Harry Potter,The Legend of Xanth, The Bartemaeus Trilogy",
       "correct_answer": "Maximum Ride",
       "incorrect_answers": [
         "Harry Potter",
@@ -113,7 +113,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "question": "Which fictional English county was the setting for Thomas Hardy's novels?",
       "correct_answer": "Wessex",
       "incorrect_answers": [
         "Barsetshire",
@@ -149,7 +149,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is Hermione Granger&#039;s middle name?",
+      "question": "What is Hermione Granger's middle name?",
       "correct_answer": "Jean",
       "incorrect_answers": [
         "Jane",
@@ -161,7 +161,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who wrote the novel &#039;Fear And Loathing In Las Vegas&#039;?",
+      "question": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
       "correct_answer": "Hunter S. Thompson",
       "incorrect_answers": [
         "F. Scott Fitzgerald",
@@ -209,7 +209,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which fictional English county was the setting for Thomas Hardy&#039;s novels?",
+      "question": "Which fictional English county was the setting for Thomas Hardy's novels?",
       "correct_answer": "Wessex",
       "incorrect_answers": [
         "Barsetshire",
@@ -233,7 +233,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Sir Handel&#039;s original name in &quot;The Railway Series&quot; and it&#039;s animated counterpart &quot;Thomas and Friends?&quot;",
+      "question": "What was Sir Handel's original name in &quot;The Railway Series&quot; and it's animated counterpart &quot;Thomas and Friends?&quot;",
       "correct_answer": "Falcon",
       "incorrect_answers": [
         "Eagle",

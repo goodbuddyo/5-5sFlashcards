@@ -29,7 +29,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which character was played by Dustin Diamond in the sitcom &#039;Saved by the Bell&#039;?",
+      "question": "Which character was played by Dustin Diamond in the sitcom 'Saved by the Bell'?",
       "correct_answer": "Screech",
       "incorrect_answers": [
         "Zack",
@@ -41,7 +41,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the TV show &#039;M*A*S*H&#039;, what was the nickname of Corporal Walter O&#039;Reilly?",
+      "question": "In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?",
       "correct_answer": "Radar",
       "incorrect_answers": [
         "Hawkeye",
@@ -101,7 +101,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these Bojack Horseman characters is a human?",
+      "question": "Which of these Bojack Horseman characters is a human? Tom Jumbo-Grumbo, Princess Carolyn, Todd Chavez, Lennie Turtletaub",
       "correct_answer": "Todd Chavez",
       "incorrect_answers": [
         "Lennie Turtletaub",
@@ -113,19 +113,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these characters in &quot;Stranger Things&quot; has the power of Telekinesis?",
-      "correct_answer": "Eleven",
-      "incorrect_answers": [
-        "Mike",
-        "Lucas",
-        "Karen"
-      ]
-    },
-    {
-      "category": "Television",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "In the show Stranger Things, what is Eleven&#039;s favorite breakfast food?",
+      "question": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
       "correct_answer": "Eggo Waffles",
       "incorrect_answers": [
         "Toast",
@@ -149,7 +137,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Guy&#039;s Grocery Games is hosted by which presenter?",
+      "question": "Guy's Grocery Games is hosted by which presenter?",
       "correct_answer": "Guy Fieri",
       "incorrect_answers": [
         "Guy Martin",
@@ -221,7 +209,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In Game of Thrones, what is Littlefinger&#039;s real name?",
+      "question": "In Game of Thrones, what is Littlefinger's real name?",
       "correct_answer": "Petyr Baelish",
       "incorrect_answers": [
         "Podrick Payne",
@@ -245,7 +233,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In Supernatural, what&#039;s is Sam&#039;s brothers name?",
+      "question": "In Supernatural, what's is Sam's brothers name?",
       "correct_answer": "Dean",
       "incorrect_answers": [
         "Dave",
@@ -329,7 +317,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In Star Trek: The Next Generation, what is the name of Data&#039;s cat?",
+      "question": "In Star Trek: The Next Generation, what is the name of Data's cat?",
       "correct_answer": "Spot",
       "incorrect_answers": [
         "Mittens",
@@ -389,11 +377,11 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these Disney shows is classified as an anime?",
+      "question": "Which of these Disney shows is classified as an anime? Cory in the House, The Emperor's New School, Stitch!, Hannah Montana",
       "correct_answer": "Stitch!",
       "incorrect_answers": [
         "Cory in the House",
-        "The Emperor&#039;s New School",
+        "The Emperor's New School",
         "Hannah Montana"
       ]
     },
@@ -437,7 +425,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who played the Waitress in the Spam sketch of &quot;Monty Python&#039;s Flying Circus&quot;?",
+      "question": "Who played the Waitress in the Spam sketch of &quot;Monty Python's Flying Circus&quot;?",
       "correct_answer": "Terry Jones",
       "incorrect_answers": [
         "Eric Idle",
@@ -521,7 +509,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In AMC&#039;s TV Series &quot;The Walking Dead&quot; what are &quot;Zombies&quot; referred to as?",
+      "question": "In AMC's TV Series &quot;The Walking Dead&quot; what are &quot;Zombies&quot; referred to as?",
       "correct_answer": "Walkers",
       "incorrect_answers": [
         "Creepers",
@@ -593,7 +581,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In Two and a Half Men, what is Alan Harper&#039;s son&#039;s name?",
+      "question": "In Two and a Half Men, what is Alan Harper's son's name?",
       "correct_answer": "Jake",
       "incorrect_answers": [
         "John",

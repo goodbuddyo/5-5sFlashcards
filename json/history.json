@@ -185,7 +185,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Manfred von Richthofen&#039;s nickname?",
+      "question": "What was Manfred von Richthofen's nickname?",
       "correct_answer": "The Red Baron",
       "incorrect_answers": [
         "The High Flying Ace",
@@ -490,7 +490,7 @@
       "incorrect_answers": [
         "Baker Street",
         "Houses of Parliament",
-        "St Paul&#039;s Cathedral"
+        "St Paul's Cathedral"
       ]
     },
     {
@@ -546,7 +546,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
-      "correct_answer": "Harper&#039;s Ferry",
+      "correct_answer": "Harper's Ferry",
       "incorrect_answers": [
         "Richmond",
         "Harrisonburg",

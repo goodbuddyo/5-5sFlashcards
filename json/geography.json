@@ -305,18 +305,6 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
-      "correct_answer": "Equatorial Guinea",
-      "incorrect_answers": [
-        "Guinea",
-        "Cameroon",
-        "Angola"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "multiple",
-      "difficulty": "easy",
       "question": "What is the name of the peninsula containing Spain and Portugal?",
       "correct_answer": "Iberian Peninsula",
       "incorrect_answers": [
@@ -413,7 +401,7 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of New Zealand&#039;s indigenous people?",
+      "question": "What is the name of New Zealand's indigenous people?",
       "correct_answer": "Maori",
       "incorrect_answers": [
         "Vikings",

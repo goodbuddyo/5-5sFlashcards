@@ -11,19 +11,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/ph01project.css">
+  <link rel="stylesheet" href="css/timer.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
   <script src="scripts/app.js" defer></script>
   <script src="scripts/router.js" defer></script>
-
-
+  <script src="scripts/timer.js" defer></script>
+  <script src="scripts/scores.js" defer></script>
 </head>
 
 <body class="fc-body">
   <div class="container">
     <main class="fc-main  align-items-center justify-content-center ">
-
-      <!-- NAV  https://getbootstrap.com/docs/5.0/components/navbar/ ========= -->
+      <!-- NAV  getbootstrap.com/docs/5.0/components/navbar/ ========= -->
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark-fcblue">
         <div class="container-fluid py-1">
           <a href="/" class="spa-link">
@@ -43,16 +43,18 @@
                 <a href="/instructions" class="nav-link pb-0 spa-link">Instructions</a>
               </li>
               <li class="nav-item ms-1">
-                <a href="/gameboard" class="nav-link pb-0 spa-link">Game Board</a>
+                <a href="/myquestion" class="nav-link pb-0 spa-link">Question</a>
               </li>
               <li class="nav-item ms-1">
-                <a href="/myquestion" class="nav-link pb-0 spa-link">Question</a>
+                <a href="/gameboard" class="nav-link pb-0 spa-link">Game Board</a>
               </li>
               <li class="nav-item ms-1">
                 <a href="/answer" class="nav-link pb-0 spa-link">Answer</a>
               </li>
+              <!-- 
 
-
+              
+            -->
             </ul>
 
           </div>
@@ -77,11 +79,14 @@
           <h2>Select 5 topics (below)<br>
             then click <strong>Start Game</strong> to begin</h2>
           <p class="fs-5 py-1 text">See <a href="/instructions" class="spa-link">instructions</a> for more info<br>
-            FlashCard questions courtesy of https://opentdb.com/<br>
-            <strong>Note:reloading the browser will end the game (bummer)</strong>
+            Most FlashCard questions courtesy of https://opentdb.com/<br>
+          </p>
+          <p class="fs-5 py-1 text">
+            <strong>Note: Reloading the browser will end the game<br> (its' a bummer, try not to do it)</strong>
           </p>
 
-          <!-- select 5 topics (from 18 opentdb.com topics) Start Game button loads 5 random questions per topic into game board -->
+          <!-- select 5 topics (from 18 opentdb.com topics) 
+            Start Game button loads 5  questions per topic -->
           <!-- will create an array to populate the options w js -->
           <div class="row py-3 mx-1 ">
             <div class="col px-1">
@@ -232,17 +237,23 @@
         <div class="p-1 m-1 bg-light rounded-4">
           <div class=" py-5">
 
-            <h5 class="display-7 p-3  fw-bold">
-              <span class="question-category"></span> Question:
-              <span class="question-qNum"></span>
-            </h5>
-            <p class="fs-4  pb-1 ">Difficulty: <span class="question-difficulty"></span>
+            <p class="fs-5  pb-1 ">
+              <span class="question_category"></span> Question:
+              <span class="question_q_num"></span>
+              <br>
+              Difficulty: <span class="question_difficulty"></span>
             </p>
-            <p class="fs-2  p-3 question-question">
-            </p>
-            <div id="timer_img" class="p-5">
-              <img src="img/timer_img.png">
+            <h1 class="p-3 question_question">
+            </h1>
+            <!--<div class="row">
+              <div class="col-12">-->
+            <div id="timer_img" class="p-3 d-flex align-items-center  justify-content-center">
+              <!--<img src="img/timer_img.png">-->
+              <div id="timerapp"></div>
+              <a type="button" class="btn  btn-outline-dark" id="timerButton">Start Timer</a>
             </div>
+            <!--</div>
+            </div>-->
 
             <a href="/answer" class="btn btn-primary btn-lg spa-link" type="button" id="fcAnswerButton">Answer</a>
 
@@ -266,21 +277,21 @@
             console.log(questionData.correct_answer)
             console.log(questionData.difficulty)
             console.log(questionData.qNum)
-            console.log(questionData.qSrc)-->
+            console.log(questionData.q_source)-->
 
 
 
         <div class="p-1 m-1 bg-light rounded-4">
           <div class=" py-4">
 
-            <h5 class="display-7 py-2  fw-bold">
-              <span class="question-category"></span> Answer to question:
-              <span class="question-qNum"></span>
-            </h5>
-            <p class="fs-1 question-answer">
-            </p>
-            <p class="fs-3 ">Question source:
-              <span class="question-qSrc"></span>
+            <h6 class="display-7 py-2">
+              <span class="answer-category"></span> Answer to question:
+              <span class="answer-num"></span>
+            </h6>
+            <h1 class=" answer-answer pt-2">
+            </h1>
+            <p class="fs-6 pt-3 ">Question source:
+              <span class="q_source"></span>
             </p>
 
           </div>
@@ -289,33 +300,33 @@
             <h4 class="mb-1  score-text">Scores</h4>
             <div class="col score-text">
               <span class="textRed">Red: </span>
-              <span class="textRed">0</span><br>A - I
+              <span class="textRed" id="red_score">0</span><br>A - I
               <br>
               <div class="btn-group ">
-                <button type="button" class="btn btn-danger px-2">+5</button>
-                <button type="button" class="btn btn-danger px-2">+1</button>
-                <button type="button" class="btn btn-danger px-2">-1</button>
+                <button type="button" id="red_add5" class="btn btn-danger px-2">+5</button>
+                <button type="button" id="red_add1" class="btn btn-danger px-2">+1</button>
+                <button type="button" id="red_minus1" class="btn btn-danger px-2">-1</button>
               </div>
             </div>
 
             <div class="col score-text">
-              <span class="textPurple">Purple: </span><span class="textPurple"> 0</span> <br>J - Q
+              <span class="textPurple">Purple: </span><span class="textPurple" id="purple_score"> 0</span> <br>J - Q
               <br>
               <div class="btn-group">
-                <button type=" button" class="btn   btn-purple px-2">+5</button>
-                <button type="button" class="btn   btn-purple px-2 ">+1</button>
-                <button type="button" class="btn   btn-purple px-2">-1</button>
+                <button type=" button" id="purple_add5" class="btn   btn-purple px-2">+5</button>
+                <button type="button" id="purple_add1" class="btn   btn-purple px-2 ">+1</button>
+                <button type="button" id="purple_minus1" class="btn   btn-purple px-2">-1</button>
               </div>
             </div>
 
             <div class="col score-text">
               <span class="textGreen">Green: </span>
-              <span class="textGreen"> 0</span><br>R - Z
+              <span class="textGreen" id="green_score"> 0</span><br>R - Z
               <br>
               <div class="btn-group  ">
-                <button type=" button" class="btn   btn-success px-2">+5</button>
-                <button type="button" class="btn   btn-success px-2">+1</button>
-                <button type="button" class="btn   btn-success px-2">-1</button>
+                <button type=" button" id="green_add5" class="btn   btn-success px-2">+5</button>
+                <button type="button" id="green_add1" class="btn   btn-success px-2">+1</button>
+                <button type="button" id="green_minus1" class="btn   btn-success px-2">-1</button>
               </div>
             </div>
           </div>
@@ -368,8 +379,6 @@
     hidden>
 
     <p class="lead text-muted clear">-------- Game Board -------- </p>
-
-    <p>FlashCards for selected topics will display below </p>
 
     <div class="py-1 ">
       <div class="row gx-0 px-0 mx-0 justify-content-center ">

@@ -5,7 +5,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is Scooby-Doo&#039;s real name?",
+      "question": "What is Scooby-Doo's real name?",
       "correct_answer": "Scoobert",
       "incorrect_answers": [
         "Scooter",
@@ -17,7 +17,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In South Park, what is Stan&#039;s surname?",
+      "question": "In South Park, what is Stan's surname?",
       "correct_answer": "Marsh",
       "incorrect_answers": [
         "Stotch",
@@ -41,7 +41,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which &#039;Family Guy&#039; character got his own spin-off show in 2009?",
+      "question": "Which 'Family Guy' character got his own spin-off show in 2009?",
       "correct_answer": "Cleveland Brown",
       "incorrect_answers": [
         "Glenn Quagmire",
@@ -77,24 +77,12 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these is NOT a catchphrase used by Rick Sanchez in the TV show &quot;Rick and Morty&quot;?",
-      "correct_answer": "Slam dunk, nothing but net!",
-      "incorrect_answers": [
-        "Hit the sack, Jack!",
-        "Rikki-Tikki-Tavi, biatch!",
-        "Wubba-lubba-dub-dub!"
-      ]
-    },
-    {
-      "category": "Cartoon & Animations",
-      "type": "multiple",
-      "difficulty": "easy",
       "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
       "correct_answer": "South Park",
       "incorrect_answers": [
         "The Simpsons",
         "Family Guy",
-        "Bob&#039;s Burgers"
+        "Bob's Burgers"
       ]
     },
     {
@@ -149,7 +137,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the name of Sid&#039;s dog in &quot;Toy Story&quot;?",
+      "question": "What is the name of Sid's dog in &quot;Toy Story&quot;?",
       "correct_answer": "Scud",
       "incorrect_answers": [
         "Buster",
@@ -209,7 +197,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
+      "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic? Pinkie Pie, Maud Pie, Rose Marene, Rainbow Dash ",
       "correct_answer": "Rose Marene",
       "incorrect_answers": [
         "Pinkie Pie",
@@ -245,7 +233,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the 1993 Disney animated series &quot;Bonkers&quot;, what is the name of Bonker&#039;s second partner?",
+      "question": "In the 1993 Disney animated series &quot;Bonkers&quot;, what is the name of Bonker's second partner?",
       "correct_answer": "Miranda Wright",
       "incorrect_answers": [
         "Dick Tracy",
@@ -257,7 +245,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon&#039;s &quot;The Loud House&quot;?",
+      "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon's &quot;The Loud House&quot;?",
       "correct_answer": "Leni",
       "incorrect_answers": [
         "Luan",
@@ -365,7 +353,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is Everest&#039;s favorite food in the Nickelodeon\/Nick Jr. series &quot;PAW Patrol&quot;?",
+      "question": "What is Everest's favorite food in the Nickelodeon\/Nick Jr. series &quot;PAW Patrol&quot;?",
       "correct_answer": "Liver",
       "incorrect_answers": [
         "Chicken",
@@ -377,7 +365,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the show &quot;Foster&#039;s Home For Imaginary Friends&quot;, which character had an obsession with basketball?",
+      "question": "In the show &quot;Foster's Home For Imaginary Friends&quot;, which character had an obsession with basketball?",
       "correct_answer": "Wilt",
       "incorrect_answers": [
         "Coco",
@@ -389,11 +377,11 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek&#039;s place of residence?",
-      "correct_answer": "Sandy&#039;s Treedome",
+      "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek's place of residence?",
+      "correct_answer": "Sandy's Treedome",
       "incorrect_answers": [
         "&quot;The Dome&quot;",
-        "Sandy&#039;s Bubble",
+        "Sandy's Bubble",
         "Auquatic Reseach Centre"
       ]
     },
@@ -401,7 +389,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these characters from &quot;SpongeBob SquarePants&quot; is not a squid?",
+      "question": "Which of these characters from &quot;SpongeBob SquarePants&quot; is not a squid? Orvillie, Squidward, Squidette, Gary ",
       "correct_answer": "Gary",
       "incorrect_answers": [
         "Orvillie",
@@ -449,7 +437,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty?",
+      "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty? Applejack, Twilight Sparkle, Pinkie Pie, Rarity ",
       "correct_answer": "Applejack",
       "incorrect_answers": [
         "Twilight Sparkle",
@@ -461,7 +449,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In &quot;Gravity Falls&quot;, how much does Waddles weigh when Mable wins him in &quot;The Time Traveler&#039;s Pig&quot;?",
+      "question": "In &quot;Gravity Falls&quot;, how much does Waddles weigh when Mable wins him in &quot;The Time Traveler's Pig&quot;?",
       "correct_answer": "15 pounds",
       "incorrect_answers": [
         "20 pounds",
@@ -473,7 +461,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these characters live in a pineapple under the sea in the cartoon &quot;SpongeBob SquarePants&quot;.",
+      "question": "Who lives in a pineapple under the sea?",
       "correct_answer": "SpongeBob SquarePants ",
       "incorrect_answers": [
         "Patrick Star",
@@ -490,7 +478,7 @@
       "incorrect_answers": [
         "Gungans",
         "Pantorans",
-        "Twi&#039;lek"
+        "Twi'lek"
       ]
     },
     {
@@ -533,7 +521,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+      "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters' fictional gang?",
       "correct_answer": "The Junkyard Gang",
       "incorrect_answers": [
         "The Trash Troupe",
@@ -545,7 +533,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What was Maggie Simpson&#039;s first canonical word, not including the Tracey Ullman shorts?",
+      "question": "What was Maggie Simpson's first canonical word, not including the Tracey Ullman shorts?",
       "correct_answer": "Daddy.",
       "incorrect_answers": [
         "Sequel?",
@@ -569,7 +557,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which singer provided the voice of Metroid&#039;s Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
+      "question": "Which singer provided the voice of Metroid's Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
       "correct_answer": "Levi Stubbs",
       "incorrect_answers": [
         "Freddie Mercury",
@@ -593,7 +581,7 @@
       "category": "Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the name of Ruby Rose&#039;s weapon from RWBY?",
+      "question": "What is the name of Ruby Rose's weapon from RWBY?",
       "correct_answer": "Crescent Rose",
       "incorrect_answers": [
         "Thorned Rosebud",

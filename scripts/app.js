@@ -1,6 +1,12 @@
 
+
+
 window.addEventListener("DOMContentLoaded",() => {
   //let all_select_values=[];
+
+  // unsuccessful attempt chg gameboard used link colors 
+  //function myFunction(element,clr) {
+  //  element.style.color=clr; }
 
   // grab the 5 topic HTML select elements by id
   let dropdown01=document.getElementById("catSelect1");
@@ -42,7 +48,6 @@ window.addEventListener("DOMContentLoaded",() => {
   const missingAlertClassList=missingAlert.classList;
 
   //////////////////////////
-
   // use the select values to create 5 json urls
   startFC.addEventListener("click",(e) => {
     e.preventDefault()
@@ -76,17 +81,19 @@ window.addEventListener("DOMContentLoaded",() => {
           }
           return array;
         };
-
         shuffledQs=shuffle(shuffledArray);
 
-        // slice out first 5 Qs from the shuffledQs array
-        // add qNum and qSrc properties for game board display
+        // slice out 5 Qs from shuffled array
+        // add q_num and q_source properties for game board display
         const slicedArray=shuffledQs.slice(0,5);
         let q=1;
-        let qSrc;
+        let q_source;
         for(let i=0;i<slicedArray.length;i++) {
-          slicedArray[i].qNum=q; // to display q number on board
-          slicedArray[i].qSrc='opentdb.com';  // future qs will need src
+          slicedArray[i].q_num=q; // to display q number on board
+          if(slicedArray[i].q_source==undefined) {
+            slicedArray[i].q_source='opentdb.com';
+          }
+          // future qs will need src
           q++
         }
         if(n==0) {
@@ -101,7 +108,7 @@ window.addEventListener("DOMContentLoaded",() => {
           slicedArray5=[...slicedArray]
         }
         else {
-          console.log('param for loadQuestions must be 0 - 4')
+          console.log('Param for loadQuestions must be 0 - 4')
         }
 
 
@@ -129,97 +136,112 @@ window.addEventListener("DOMContentLoaded",() => {
               // we need an addEventListener that sends the correct data for each topic
               // for goTo() to work in the gameboard li item clicks
               li.addEventListener("click",() => {
-                goTo("/myquestion",questionData)
+                goTo("/myquestion",questionData);
               });
-              q=questionData.qNum
+              q=questionData.q_num
               if(q==1) {
                 // for the first q create both topic li and Q1 li
                 li.innerHTML=`
                 <span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${questionData.category}</h3></span>
                 </li>
                 <li class="clear">
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
                 `;
               } else {
                 // qs 2 - 4 innerHTML the number and href
                 li.innerHTML=`
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
                 `;
               };
               document.querySelector('#boardCol01 ul').appendChild(li);
+              // document.getElementById(`#col${num}Q${q}`).style.color="yellow";
             });
+
           } else if(num==1) {
             slicedArray2.forEach(questionData => {
               const li=document.createElement("li");
               li.addEventListener("click",() => {
-                goTo("/myquestion",questionData)
+                goTo("/myquestion",questionData);
               });
-              q=questionData.qNum;
+              q=questionData.q_num;
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${questionData.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>`;
               } else {
-                li.innerHTML=` <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                li.innerHTML=`<a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
             `;
               };
               document.querySelector('#boardCol02 ul').appendChild(li);
+              // document.getElementById(`#col${num}Q${q}`).style.color="yellow";
             });
+
           } else if(num==2) {
             slicedArray3.forEach(questionData => {
               const li=document.createElement("li");
               li.addEventListener("click",() => {
-                goTo("/myquestion",questionData)
+                goTo("/myquestion",questionData);
+
               });
-              q=questionData.qNum
+              q=questionData.q_num
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${questionData.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>`;
               } else {
-                li.innerHTML=` <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                li.innerHTML=`<a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
             `;
               };
               document.querySelector('#boardCol03 ul').appendChild(li);
+              // document.getElementById(`#col${num}Q${q}`).style.color="yellow";
             });
           } else if(num==3) {
             slicedArray4.forEach(questionData => {
               const li=document.createElement("li");
               li.addEventListener("click",() => {
-                goTo("/myquestion",questionData)
+                goTo("/myquestion",questionData);
+
               });
-              q=questionData.qNum
+              q=questionData.q_num
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${questionData.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>`;
               } else {
-                li.innerHTML=` <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                li.innerHTML=`<a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
             `;
               };
               document.querySelector('#boardCol04 ul').appendChild(li);
+              // document.getElementById(`#col${num}Q${q}`).style.color="yellow";
             });
           } else if(num==4) {
             slicedArray5.forEach(questionData => {
               const li=document.createElement("li");
               li.addEventListener("click",() => {
                 goTo("/myquestion",questionData)
+
               });
-              q=questionData.qNum
+              q=questionData.q_num
               if(q==1) {
                 li.innerHTML=`<span class="jepTopic"><h3 class="d-flex align-items-center justify-content-center">${questionData.category}</h3></span>
                 </li>  <li class="clear">
-                <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>`;
+                <a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>`;
               } else {
-                li.innerHTML=` <a class="jAnswer li-spa-link btn btn-primary" href="/myquestion">${q}</a>
+                li.innerHTML=`<a class="jAnswer li-spa-link btn btn-primary" id="col${num}Q${q}" href="/myquestion">${q}</a>
             `;
               }
               document.querySelector('#boardCol05 ul').appendChild(li);
+              // document.getElementById(`#col${num}Q${q}`).style.color="yellow";
             }
             );
+
           } else {
             console.error('loadQuestions param must be 0 - 4');
           };
+
+
+
+
         };
         // end function declaration loadQuestions
 
@@ -237,6 +259,8 @@ window.addEventListener("DOMContentLoaded",() => {
           element.addEventListener("click",event => {
             event.preventDefault();
             goTo(element.href);
+
+
           })
         })
 
@@ -254,30 +278,31 @@ window.addEventListener("DOMContentLoaded",() => {
     } else {
       console.log('Please select all 5 topics')
     };
-  });
-});
+
+
+
+
+  }); // end startFC event listener
+
+});  // end DOMContentLoaded
 
 
 function renderQuestionDetails(questionData) {
-  console.log("Display the questionData category")
-  // must add if(questionData) to avoid - Cannot read properties of undefined
+  // must add if(questionData) here to avoid - Cannot read properties of undefined
   // may be a bubbling issue ??
   if(questionData) {
-    //console.log(questionData.category)
-    //console.log(questionData.question)
-    //console.log(questionData.correct_answer)
-    //console.log(questionData.difficulty)
-    //console.log(questionData.qNum)
-    //console.log(questionData.qSrc)
+    document.querySelector(".question_category").textContent=questionData.category;
+    document.querySelector(".question_question").textContent=questionData.question;
+    document.querySelector(".question_difficulty").textContent=questionData.difficulty;
+    document.querySelector(".question_q_num").textContent=questionData.q_num.toString();
 
-    document.querySelector(".question-category").textContent=questionData.category;
-    document.querySelector(".question-question").textContent=questionData.question;
-    document.querySelector(".question-answer").textContent=questionData.correct_answer;
-    document.querySelector(".question-difficulty").textContent=questionData.difficulty;
-    document.querySelector(".question-qNum").textContent=questionData.qNum;
-    document.querySelector(".question-qSrc").textContent=questionData.qSrc;
-
+    document.querySelector(".answer-category").textContent=questionData.category;
+    document.querySelector(".answer-answer").textContent=questionData.correct_answer;
+    document.querySelector(".answer-num").textContent=questionData.q_num.toString();
+    document.querySelector(".q_source").textContent=questionData.q_source;
   }
+
+
 
 
 

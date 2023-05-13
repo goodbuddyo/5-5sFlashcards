@@ -5,7 +5,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The K\u0101k\u0101p\u014d is a large, flightless, nocturnal parrot native to which country?",
+      "question": "The Kakapo is a large, flightless, nocturnal parrot native to which country?",
       "correct_answer": "New Zealand",
       "incorrect_answers": [
         "South Africa",
@@ -41,7 +41,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these is a colony of polyps and not a jellyfish?",
+      "question": "Which of these is a colony of polyps and not a jellyfish? Sea Nettle, Portuguese Man-of-War, Sea Wasp, Irukandji",
       "correct_answer": "Portuguese Man-of-War",
       "incorrect_answers": [
         "Sea Wasp",
@@ -89,7 +89,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the world&#039;s longest venomous snake?",
+      "question": "What is the world's longest venomous snake?",
       "correct_answer": "King Cobra",
       "incorrect_answers": [
         "Green Anaconda",
@@ -113,7 +113,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What color\/colour is a polar bear&#039;s skin?",
+      "question": "What color\/colour is a polar bear's skin?",
       "correct_answer": "Black",
       "incorrect_answers": [
         "White",
@@ -185,7 +185,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the Gray Wolf&#039;s scientific name?",
+      "question": "What is the Gray Wolf's scientific name?",
       "correct_answer": "Canis Lupus",
       "incorrect_answers": [
         "Canis Aureus",
@@ -197,7 +197,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these animals is NOT a lizard?",
+      "question": "Which of these animals is NOT a lizard? Komodo Dragon, Tuatara, Gila Monster, Green Iguana ",
       "correct_answer": "Tuatara",
       "incorrect_answers": [
         "Komodo Dragon",
@@ -221,7 +221,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these species is not extinct?",
+      "question": "Which of these species is not extinct? Japanese sea lion, Komodo dragon, Tasmanian tiger, Saudi gazelle",
       "correct_answer": "Komodo dragon",
       "incorrect_answers": [
         "Japanese sea lion",
@@ -245,7 +245,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which species is a &quot;mountain chicken&quot;?",
+      "question": "Which species is a 'mountain chicken'? Fly, Chicken, Frog, Horse",
       "correct_answer": "Frog",
       "incorrect_answers": [
         "Chicken",
@@ -293,7 +293,7 @@
       "category": "Animals",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of a rabbit&#039;s abode?",
+      "question": "What is the name of a rabbit's abode?",
       "correct_answer": "Burrow",
       "incorrect_answers": [
         "Nest",
@@ -323,18 +323,6 @@
         "Cormorant",
         "Cassowary",
         "Secretary bird"
-      ]
-    },
-    {
-      "category": "Animals",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "&quot;Decapods&quot; are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
-      "correct_answer": "Krill",
-      "incorrect_answers": [
-        "Lobsters",
-        "Shrimp",
-        "Crabs"
       ]
     }
   ]

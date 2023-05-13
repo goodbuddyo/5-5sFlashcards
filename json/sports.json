@@ -17,7 +17,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?",
+      "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
       "correct_answer": "Hammer",
       "incorrect_answers": [
         "Wrench",
@@ -53,7 +53,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which English football club has the nickname &#039;The Foxes&#039;?",
+      "question": "Which English football club has the nickname 'The Foxes'?",
       "correct_answer": "Leicester City",
       "incorrect_answers": [
         "Northampton Town",
@@ -101,7 +101,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which Formula One driver was nicknamed &#039;The Professor&#039;?",
+      "question": "Which Formula One driver was nicknamed 'The Professor'?",
       "correct_answer": "Alain Prost",
       "incorrect_answers": [
         "Ayrton Senna",
@@ -209,7 +209,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?",
+      "question": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
       "correct_answer": "Mercedes-AMG Petronas",
       "incorrect_answers": [
         "Scuderia Ferrari",
@@ -330,7 +330,7 @@
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
-      "correct_answer": "Shaquille O&#039;Neal",
+      "correct_answer": "Shaquille O'Neal",
       "incorrect_answers": [
         "Allen Iverson",
         "Kobe Bryant",
@@ -341,7 +341,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which boxer was banned for taking a bite out of Evander Holyfield&#039;s ear in 1997?",
+      "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
       "correct_answer": "Mike Tyson",
       "incorrect_answers": [
         "Roy Jones Jr.",
@@ -413,7 +413,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of Manchester United&#039;s home stadium?",
+      "question": "What is the name of Manchester United's home stadium?",
       "correct_answer": "Old Trafford",
       "incorrect_answers": [
         "Anfield",
@@ -473,7 +473,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which year did Jenson Button won his first ever Formula One World Drivers&#039; Championship?",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
       "correct_answer": "2009",
       "incorrect_answers": [
         "2010",
@@ -497,7 +497,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who won the 2017 Formula One World Drivers&#039; Championship?",
+      "question": "Who won the 2017 Formula One World Drivers' Championship?",
       "correct_answer": "Lewis Hamilton",
       "incorrect_answers": [
         "Sebastian Vettel",
