@@ -118,13 +118,13 @@ color: #fff;
 
 section#page-game-board{display:block;}
 
-.textRed {color: red;}
-.textBlue {color: blue;}
-.textGreen {color: green;}
+/*.textRed {color: red;}
+.textPurple {color: purple;}
+.textGreen {color: green;}*/
 
-   .col-1-spacer-div {
-      width: 2px; padding: 2px; font-size: 1px;
-    }
+.col-1-spacer-div {
+  width: 2px; padding: 2px; font-size: 1px;
+}
 
 /* On screens that are 480px wide or less, make the left col game td narrow */
   @media screen and (max-width: 480px) {

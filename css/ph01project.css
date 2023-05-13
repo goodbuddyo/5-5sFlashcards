@@ -15,7 +15,7 @@
     flex-direction: column;
     width: 100%;
     flex-grow: 1;
-    padding-bottom:70px;
+    padding-bottom:50px;
 }
 
 .hidden {display:none;}
@@ -102,23 +102,49 @@ color: #fff;
 }
 
 .pad20 {padding: 10px;}
+.pad10 {padding: 5px;}
 
 section#page-game-board{display:block;}
+.teams {list-style: none; font-size: 20px; }
+.textRed {color: red; font-weight: bold;}
+.textPurple {color: purple; font-weight: bold;}
+.textGreen {color: green; font-weight: bold;}
 
-.textRed {color: red;}
-.textBlue {color: blue;}
-.textGreen {color: green;}
+.col-1-spacer-div {
+  width: 2px; padding: 2px; font-size: 1px;
+}
 
-   .col-1-spacer-div {
-      width: 2px; padding: 2px; font-size: 1px;
-    }
+.btn-purple {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #751987;
+    --bs-btn-border-color: #751987;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5a1368;
+    --bs-btn-hover-border-color: #4f0a5c;
+    --bs-btn-focus-shadow-rgb: 98, 23, 113;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4f0a5c;
+    --bs-btn-active-border-color: #671078;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #751987;
+    --bs-btn-disabled-border-color: #751987;
+}
+
+
+/*.fs-5 {
+    font-size: 1.25rem!important;
+}*/
+.score-text {  font-size: 1.25rem; }
+
 
 /* On screens that are 480px wide or less, make the left col gameboard td narrow */
   @media screen and (max-width: 480px) {
-   .col-1-spacer-div {
+    .col-1-spacer-div {
       width: 2px; padding: 2px; font-size: 1px;
     }
     .minwidth75 {min-width:75px;}
+    
   }
   @media (min-width: 500px) {   
     body {display:block; } 
@@ -126,23 +152,39 @@ section#page-game-board{display:block;}
     .col-1-spacer-div {
       width: 6px; ;
     }
+
   }    /* LT< 576px - Bootstrap default */
+
   @media (min-width: 576px) {   
     body {display:block; } 
     .minwidth75 {min-width:100px;}
     .col-1-spacer-div {
       width: 10px; ;
     }
+    .score-text {  font-size: 1.35rem; }
+
   }    /* LT< 576px - Bootstrap default */
   @media (min-width: 768px) {    
     body { display: block; }  
     .minwidth75 {min-width:130px;}
-        .col-1-spacer-div {
+    .col-1-spacer-div {
       width: 14px; ;
     }
+    .score-text {  font-size: 1.45rem; }
+
   } /*  tablets, 768px and up */
-  @media (min-width: 992px) { body {display:block} .minwidth75 {min-width:160px;}}  /* desktops, 992px and up */
-  @media (min-width: 1200px) { body {display:block}  .minwidth75 {min-width:180px;}}  /* large desktops, 1200px and up  */
+  @media (min-width: 992px) { 
+    body {display:block} 
+    .minwidth75 {min-width:160px;}
+    .score-text {  font-size: 1.65rem; }
+
+  }  /* desktops, 992px and up */
+  @media (min-width: 1200px) { 
+    body {display:block}  
+    .minwidth75 {min-width:180px;}
+    .score-text {  font-size: 1.85rem; }
+
+  }  /* large desktops, 1200px and up  */
 
 
 
