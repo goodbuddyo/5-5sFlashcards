@@ -29,7 +29,7 @@
         <div class="container-fluid py-1">
           <a href="/" class="spa-link">
             <!--<object data="/img/5-5sFlashcards400x240.svg" alt="Home Logo" width="120" height="60"> </object>-->
-            <img type="image/png" src="img/Flashcards340x204.png"" alt=" FlashCards Logo" width="120" height="60">
+            <img type="image/png" src="img/Flashcards340x204.png"" alt=" 5-5s FlashCards Logo" width="120" height="60">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,15 @@
                 <a href="/instructions" class="nav-link pb-0 spa-link">Instructions</a>
               </li>
 
+              <li class="nav-item ms-1">
+                <a href="/gameboard" class="nav-link pb-0 spa-link">Game Board</a>
+              </li>
+
               <!-- 
                             <li class="nav-item ms-1">
                 <a href="/myquestion" class="nav-link pb-0 spa-link">Question</a>
               </li>
-              <li class="nav-item ms-1">
-                <a href="/gameboard" class="nav-link pb-0 spa-link">Game Board</a>
-              </li>
+              
               <li class="nav-item ms-1">
                 <a href="/answer" class="nav-link pb-0 spa-link">Answer</a>
               </li>
@@ -71,8 +73,8 @@
         <div class="pt-1 text-center">
           <h2 class="fw-bold pt-4">Welcome to</h2>
           <h2 class="welcome  pt-0">
-            <img type="image/png" class="d-block mx-auto mb-1 " src="img/Flashcards340x204.png" alt="FlashCards"
-              width="260" height="150">
+            <img type="image/png" class="d-block mx-auto mb-1 " src="img/Flashcards340x204.png"
+              alt="5-5s.com FlashCards" width="260" height="150">
           </h2>
           <h3 class=" mb-3">A virtual meeting learning game</h3>
         </div>
@@ -276,15 +278,13 @@
               <div id="timerapp"></div>
               <a type="button" class="btn  btn-outline-dark" id="timerButton">Start Timer</a>
             </div>
-            <!--</div>
-            </div>-->
 
             <a href="/answer" class="btn btn-primary btn-lg spa-link" type="button" id="fcAnswerButton">Answer</a>
 
           </div>
         </div>
         <!-- 
-  https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ -->
+        https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ -->
 
       </section>
 
@@ -292,7 +292,6 @@
       <section class="sectionpage page align-items-center justify-content-center clear section-answer" id="fcAnswer"
         hidden>
         <div class="pad10">&nbsp;</div>
-
 
         <!-- console.log(questionData.category) -->
 
@@ -352,70 +351,69 @@
           <div class="clear py-2">&nbsp;</div>
 
         </div>
-  </div>
-  </section>
+      </section>
 
 
-  <!-- Submit Q & A Form Page (for future version) -  =================  -->
+      <!-- Submit Q & A Form Page (for future version) -  =================  -->
 
 
+      <!-- Gameboard Page  -  =================  -->
 
-  <!-- Gameboard Page  -  =================  -->
+      <section class="sectionpage page align-items-center justify-content-center clear section-gameboard"
+        id="fcGameBoard" hidden>
 
-  <section class="sectionpage page align-items-center justify-content-center clear section-gameboard" id="fcGameBoard"
-    hidden>
+        <p class="lead text-muted clear">-------- Game Board -------- </p>
 
-    <p class="lead text-muted clear">-------- Game Board -------- </p>
+        <div class="py-1 ">
+          <div class="row gx-0 px-0 mx-0 justify-content-center ">
+            <!-- note: small screen has left and right cols because we're using 5 col-2 divs (not 6 ) -->
+            <div class="col-1 ms-0 clear col-1-spacer-div">
+              &nbsp;
+            </div>
 
-    <div class="py-1 ">
-      <div class="row gx-0 px-0 mx-0 justify-content-center ">
-        <!-- note: small screen has left and right cols because we're using 5 col-2 divs (not 6 ) -->
-        <div class="col-1 ms-0 clear col-1-spacer-div">
-          &nbsp;
-        </div>
+            <!--  begin game board ===================== -->
 
-        <!--  begin game board ===================== -->
+            <div class=" col-2 px-0 clear minwidth75" id="boardCol01">
+              <ul class="jepList"> </ul>
+            </div>
+            <div class=" col-2 px-0 clear minwidth75" id="boardCol02">
+              <ul class="jepList"> </ul>
+            </div>
+            <div class=" col-2 px-0 clear minwidth75" id="boardCol03">
+              <ul class="jepList"> </ul>
+            </div>
+            <div class=" col-2 px-0 clear minwidth75" id="boardCol04">
+              <ul class="jepList"> </ul>
+            </div>
+            <div class=" col-2 px-0 clear minwidth75" id="boardCol05">
+              <ul class="jepList"> </ul>
+            </div>
+            <br><br>
+            <div class="clear py-5">&nbsp;</div>
 
-        <div class=" col-2 px-0 clear minwidth75" id="boardCol01">
-          <ul class="jepList"> </ul>
-        </div>
-        <div class=" col-2 px-0 clear minwidth75" id="boardCol02">
-          <ul class="jepList"> </ul>
-        </div>
-        <div class=" col-2 px-0 clear minwidth75" id="boardCol03">
-          <ul class="jepList"> </ul>
-        </div>
-        <div class=" col-2 px-0 clear minwidth75" id="boardCol04">
-          <ul class="jepList"> </ul>
-        </div>
-        <div class=" col-2 px-0 clear minwidth75" id="boardCol05">
-          <ul class="jepList"> </ul>
-        </div>
-        <br><br>
-        <div class="clear py-5">&nbsp;</div>
-
-      </div>
-      <div class="clear">&nbsp;</div>
-
-      <!--  end game board ==================== -->
-
-
-      <div class="clear">&nbsp;</div>
-      <div class="py-1 ">
-        <div class="row gx-0 px-0 mx-0 justify-content-center ">
-          <div class="col-1 ms-0 clear col-1-spacer-div">
           </div>
-          <br><br><br><br><br>
-          <div class="clear py-5">&nbsp;</div>
-        </div>
-        <div class="clear">&nbsp;</div>
-      </div>
-      <div class="clear">&nbsp;</div>
-  </section>
+          <div class="clear">&nbsp;</div>
 
-  <div class="clear py-4">&nbsp;</div>
-  </main>
-  <div class="clear py-4">&nbsp;</div>
+          <!--  end game board ==================== -->
+
+          <div class="py-1 ">
+            <div class="row gx-0 px-0 mx-0 justify-content-center ">
+              <div class="col-1 ms-0 clear col-1-spacer-div">
+              </div>
+              <br><br><br>
+              <div class="clear py-5">&nbsp;</div>
+            </div>
+            <div class="clear">&nbsp;</div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+      <div class="clear py-4">&nbsp;</div>
+    </main>
+    <div class="clear py-4">&nbsp;</div>
   </div>
 
   <!-- end .container -->

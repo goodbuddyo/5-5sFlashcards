@@ -253,11 +253,45 @@ window.addEventListener("DOMContentLoaded",() => {
         document.querySelectorAll("a.li-spa-link").forEach(element => {
           element.addEventListener("click",event => {
             event.preventDefault();
+            event.currentTarget.style.opacity=0.2;
             goTo(element.href);
 
 
           })
         })
+
+
+        //function setThemeColor(color) {
+        //  const header=document.querySelector("header");
+        //  header.style.backgroundColor=color;
+        //  header.addEventListener("transitionend",() => {
+        //    document.querySelector("meta[name=theme-color]").content=color;
+        //  })
+        //}
+
+        //document.addEventListener("routerender",() => {
+        //  setThemeColor("black");
+        //})
+
+        //document.addEventListener("eventsload",event => {
+        //  const trs=document.querySelectorAll("#page-home tr");
+        //  trs.forEach(tr => {
+        //    tr.addEventListener("mouseover",event => {
+        //      tr.classList.add("over");
+        //      setThemeColor(event.currentTarget.dataset.color);
+        //    });
+        //    tr.addEventListener("mouseout",event => {
+        //      tr.classList.remove("over");
+        //      if(location.pathname=="/") { // if it continues in the home page
+        //        setThemeColor("black");
+        //      }
+        //    });
+        //  })
+        //});
+
+
+
+
 
         // hide all class .page elements
         document.querySelectorAll(".page").forEach(e => e.hidden=true);
