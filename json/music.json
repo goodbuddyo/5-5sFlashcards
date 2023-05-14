@@ -53,7 +53,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which singer was featured in Swedish producer Avicii's song &quot;Wake Me Up&quot;?",
+      "question": "Which singer was featured in Swedish producer Avicii's song 'Wake Me Up'?",
       "correct_answer": "Aloe Blacc",
       "incorrect_answers": [
         "John Legend",
@@ -65,7 +65,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Irish musician Hozier released a music track in 2013 titled, &quot;Take Me to ______&quot;",
+      "question": "Irish musician Hozier released a music track in 2013 titled, 'Take Me to ______'",
       "correct_answer": "Church",
       "incorrect_answers": [
         "Mosque",
@@ -137,7 +137,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 &quot;Need You&quot;?",
+      "question": "Which artist collaborated with American DJ Dillon Francis to release the song 2016 'Need You'?",
       "correct_answer": "NGHTMRE",
       "incorrect_answers": [
         "LOUDPVCK",
@@ -149,7 +149,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What animal is featured on the cover of English electronic music group The Prodigy's album, &quot;The Fat of the Land&quot;?",
+      "question": "What animal is featured on the cover of English electronic music group The Prodigy's album, 'The Fat of the Land'?",
       "correct_answer": "Crab",
       "incorrect_answers": [
         "Fox",
@@ -221,7 +221,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which famous 90's rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
+      "question": "Which famous 90's rap album is commonly referred to as 'The Bible of Hip Hop'?",
       "correct_answer": "Illmatic",
       "incorrect_answers": [
         "The Low End Theory",
@@ -233,7 +233,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who recorded the album called &quot;Down to the Moon&quot; in 1986?",
+      "question": "Who recorded the album called 'Down to the Moon' in 1986?",
       "correct_answer": "Andreas Vollenweider",
       "incorrect_answers": [
         "Jean-Michel Jarre",
@@ -257,7 +257,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In what film was the Michael Jackson song &quot;Will You Be There&quot; featured?",
+      "question": "In what film was the Michael Jackson song 'Will You Be There' featured?",
       "correct_answer": "Free Willy",
       "incorrect_answers": [
         "Sleepless in Seattle",
@@ -269,7 +269,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Cryoshell, known for &quot;Creeping in My Soul&quot; did the advertising music for what Lego Theme?",
+      "question": "Cryoshell, known for 'Creeping in My Soul' did the advertising music for what Lego Theme?",
       "correct_answer": "Bionicle",
       "incorrect_answers": [
         "Hero Factory",
@@ -365,7 +365,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is the vocalist and frontman of rock band &quot;Guns N' Roses&quot;?",
+      "question": "Who is the vocalist and frontman of rock band 'Guns N' Roses'?",
       "correct_answer": "Axl Rose",
       "incorrect_answers": [
         "Kurt Cobain",
@@ -401,7 +401,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which artist or group did John Lennon consider &quot;son(s) of the Beatles&quot;?",
+      "question": "Which artist or group did John Lennon consider 'son(s) of the Beatles'?",
       "correct_answer": "Jeff Lynne's Electric Light Orchestra",
       "incorrect_answers": [
         "The Rolling Stones",
@@ -413,7 +413,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which album by American rapper Kanye West contained songs such as &quot;Love Lockdown&quot;, &quot;Paranoid&quot; and &quot;Heartless&quot;?",
+      "question": "Which album by American rapper Kanye West contained songs such as 'Love Lockdown', 'Paranoid' and 'Heartless'?",
       "correct_answer": "808s &amp; Heartbreak",
       "incorrect_answers": [
         "Late Registration",
@@ -425,7 +425,7 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which Iron Maiden album did the song &quot;Dream of Mirrors&quot; feature in?",
+      "question": "Which Iron Maiden album did the song 'Dream of Mirrors' feature in?",
       "correct_answer": "Brave New World",
       "incorrect_answers": [
         "Dance of Death",
@@ -485,12 +485,12 @@
       "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which song made by MAN WITH A MISSION was used as the opening for the anime &quot;Log Horizon&quot;?",
-      "correct_answer": "&quot;Database&quot;",
+      "question": "Which song made by MAN WITH A MISSION was used as the opening for the anime 'Log Horizon'?",
+      "correct_answer": "'Database'",
       "incorrect_answers": [
-        "&quot;Dead End in Tokyo&quot;",
-        "&quot;Raise Your Flag&quot;",
-        "&quot;Out of Control&quot;"
+        "'Dead End in Tokyo'",
+        "'Raise Your Flag'",
+        "'Out of Control'"
       ]
     },
     {

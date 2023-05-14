@@ -65,7 +65,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In what sport is a &quot;shuttlecock&quot; used?",
+      "question": "In what sport is a 'shuttlecock' used?",
       "correct_answer": "Badminton",
       "incorrect_answers": [
         "Table Tennis",
@@ -221,7 +221,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?",
+      "question": "Which city did the former NHL team 'The Nordiques' originiate from?",
       "correct_answer": "Quebec City",
       "incorrect_answers": [
         "Houston",
@@ -269,7 +269,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+      "question": "This Canadian television sportscaster is known for his 'Hockey Night in Canada' role, a commentary show during hockey games.",
       "correct_answer": "Don Cherry",
       "incorrect_answers": [
         "Don McKellar",
@@ -293,7 +293,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?",
+      "question": "What is the full name of the footballer 'Cristiano Ronaldo'?",
       "correct_answer": "Cristiano Ronaldo dos Santos Aveiro",
       "incorrect_answers": [
         "Cristiano Ronaldo los Santos Diego",
@@ -425,7 +425,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which player &quot;kung-fu kicked&quot; a Crystal Palace fan in January 1995?",
+      "question": "Which player 'kung-fu kicked' a Crystal Palace fan in January 1995?",
       "correct_answer": "Eric Cantona",
       "incorrect_answers": [
         "David Seamen",

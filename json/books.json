@@ -5,7 +5,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was the name of Captain Nemo's submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+      "question": "What was the name of Captain Nemo's submarine in '20,000 Leagues Under the Sea'?",
       "correct_answer": "The Nautilus",
       "incorrect_answers": [
         "The Neptune",
@@ -41,7 +41,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which famous spy novelist wrote the childrens' story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+      "question": "Which famous spy novelist wrote the childrens' story 'Chitty-Chitty-Bang-Bang'?",
       "correct_answer": "Ian Fleming",
       "incorrect_answers": [
         "Joseph Conrad",
@@ -53,7 +53,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The novel &quot;Of Mice And Men&quot; was written by what author? ",
+      "question": "The novel 'Of Mice And Men' was written by what author? ",
       "correct_answer": "John Steinbeck ",
       "incorrect_answers": [
         "George Orwell",
@@ -101,7 +101,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The book &quot;Fahrenheit 451&quot; was written by whom?",
+      "question": "The book 'Fahrenheit 451' was written by whom?",
       "correct_answer": "Ray Bradbury",
       "incorrect_answers": [
         "R. L. Stine",
@@ -137,7 +137,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the book &quot;The Martian&quot;, how long was Mark Watney trapped on Mars (in Sols)?",
+      "question": "In the book 'The Martian', how long was Mark Watney trapped on Mars (in Sols)?",
       "correct_answer": "549 Days",
       "incorrect_answers": [
         "765 Days",
@@ -185,7 +185,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+      "question": "In the 'Harry Potter' novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
       "correct_answer": "Answer a riddle",
       "incorrect_answers": [
         "Rhythmically tap barrels with a wand",
@@ -197,7 +197,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+      "question": "In 'Little Women', which of the March sisters married Laurie?",
       "correct_answer": "Amy",
       "incorrect_answers": [
         "Beth",
@@ -221,7 +221,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is the author of the series &quot;Malazan Book of the Fallen&quot;?",
+      "question": "Who is the author of the series 'Malazan Book of the Fallen'?",
       "correct_answer": "Steven Erikson",
       "incorrect_answers": [
         "Ian Cameron Esslemont",
@@ -233,7 +233,7 @@
       "category": "Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Sir Handel's original name in &quot;The Railway Series&quot; and it's animated counterpart &quot;Thomas and Friends?&quot;",
+      "question": "What was Sir Handel's original name in 'The Railway Series' and it's animated counterpart 'Thomas and Friends?'",
       "correct_answer": "Falcon",
       "incorrect_answers": [
         "Eagle",

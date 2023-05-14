@@ -4,20 +4,21 @@
 <head>
   <meta charset="utf-8">
   <title>5-5s FlashCards</title>
-  <!--<link rel="stylesheet" href="css/main.css">-->
   <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link type="text/css" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/ph01project.css">
-  <link rel="stylesheet" href="css/timer.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/ph01project.css">
+  <link type="text/css" rel="stylesheet" href="css/timer.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    defer></script>
 
-  <script src="scripts/app.js" defer></script>
-  <script src="scripts/router.js" defer></script>
-  <script src="scripts/timer.js" defer></script>
-  <script src="scripts/scores.js" defer></script>
+  <script type="text/javascript" src="scripts/app.js" defer></script>
+  <script type="text/javascript" src="scripts/router.js" defer></script>
+  <script type="text/javascript" src="scripts/timer.js" defer></script>
+  <script type="text/javascript" src="scripts/scores.js" defer></script>
 </head>
 
 <body class="fc-body">
@@ -27,7 +28,8 @@
       <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark-fcblue">
         <div class="container-fluid py-1">
           <a href="/" class="spa-link">
-            <img src="img/5-5sFlashcards400x240.svg" alt="Home Logo">
+            <!--<object data="/img/5-5sFlashcards400x240.svg" alt="Home Logo" width="120" height="60"> </object>-->
+            <img type="image/png" src="img/Flashcards340x204.png"" alt=" FlashCards Logo" width="120" height="60">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,22 +64,22 @@
       </nav>
 
       <!-- spacer to show pages below nav  -->
-      <div class="pt-5">&nbsp;</div>
+      <div class="pt-3">&nbsp;</div>
 
       <!-- Homepage - from bs form examples =================  -->
       <section class="sectionpage page align-items-center justify-content-center clear" id="fcHome">
-        <div class="pt-2 text-center">
-          <h1 class="fw-bold pt-4">Welcome to</h1>
+        <div class="pt-1 text-center">
+          <h2 class="fw-bold pt-4">Welcome to</h2>
           <h2 class="welcome  pt-0">
-            <img class="d-block mx-auto mb-1 " src="img/5-5sFlashcards400x240.svg" alt="5-5s.com FlashCards" width="300"
-              height="190">
+            <img type="image/png" class="d-block mx-auto mb-1 " src="img/Flashcards340x204.png" alt="FlashCards"
+              width="260" height="150">
           </h2>
-          <h2 class="lead mb-3">A virtual meeting learning game</h2>
+          <h3 class=" mb-3">A virtual meeting learning game</h3>
         </div>
 
         <div class="py-2 text-center">
-          <h2>Select 5 topics (below)<br>
-            then click <strong>Start Game</strong> to begin</h2>
+          <h3>Select 5 topics (below)<br>
+            then click <strong>Start Game</strong> to begin</h3>
           <p class="fs-5 py-1 text">See <a href="/instructions" class="spa-link">instructions</a> for more info<br>
             Most FlashCard questions courtesy of https://opentdb.com/<br>
           </p>
@@ -224,8 +226,6 @@
       <section class="sectionpage page align-items-center justify-content-center clear" id="fcInstructions" hidden>
         <div class="pad-10">&nbsp;</div>
 
-        <p class="lead text-muted">-------- Instructions ---------- </p>
-
         <div class="pad10">&nbsp;</div>
         <h1 class="fw-bold">Game Instructions</h1>
         <p class="fs-4 py-2 "><span class="fw-bold">5-5s.com/FlashCards</span> is designed to be played using an online
@@ -258,7 +258,6 @@
       <!-- Questions Page -  =================  -->
       <section class="sectionpage page align-items-center justify-content-center clear" id="fcQuestion" hidden>
         <div class="pad10">&nbsp;</div>
-        <p class="lead text-muted">------------ Q: Page ------------ </p>
 
         <div class="p-1 m-1 bg-light rounded-4">
           <div class=" py-5">
@@ -294,7 +293,6 @@
         hidden>
         <div class="pad10">&nbsp;</div>
 
-        <p class="lead text-muted">------------ A: Page ------------ </p>
 
         <!-- console.log(questionData.category) -->
 

@@ -149,7 +149,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What year did Albrecht D&uuml;rer create the painting &quot;The Young Hare&quot;?",
+      "question": "What year did Albrecht D&uuml;rer create the painting 'The Young Hare'?",
       "correct_answer": "1502",
       "incorrect_answers": [
         "1702",
@@ -221,7 +221,7 @@
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "How many paint and pastel versions of &quot;The Scream&quot; is Norwegian painter Edvard Munch believed to have produced?",
+      "question": "How many paint and pastel versions of 'The Scream' is Norwegian painter Edvard Munch believed to have produced?",
       "correct_answer": "4",
       "incorrect_answers": [
         "1",

@@ -22,8 +22,6 @@
 section.sectionpage {min-width: 440px;}
 
 main.fc-main {    
-  /*max-width: 960px; border: solid 1px red;
-  min-width: 480px; */
   border:none;
 }
 
@@ -35,6 +33,7 @@ main.fc-main {
 .fc-body .fc-main nav   {
   background-color: #006dcc;
 color: #fff;
+padding: 2px;
 }
 
 .fc-main nav .nav-link{font-size:larger}
@@ -44,6 +43,8 @@ color: #fff;
 }
 
 .lead {font-size: 2.1em; }
+
+main nav.navbar {padding: 2px 2px;}
 
 .fc-body .jepCol {
 	text-align: center;
@@ -130,7 +131,6 @@ section#page-game-board{display:block;}
     --bs-btn-disabled-bg: #751987;
     --bs-btn-disabled-border-color: #751987;
 }
-
 
 /*.fs-5 {
     font-size: 1.25rem!important;

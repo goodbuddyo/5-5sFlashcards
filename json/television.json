@@ -5,7 +5,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was the name of the police officer in the cartoon &quot;Top Cat&quot;?",
+      "question": "What was the name of the police officer in the cartoon 'Top Cat'?",
       "correct_answer": "Dibble",
       "incorrect_answers": [
         "Barbrady",
@@ -17,7 +17,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the TV show &quot;Cheers&quot;, Sam Malone was a former relief pitcher for which baseball team?",
+      "question": "In the TV show 'Cheers', Sam Malone was a former relief pitcher for which baseball team?",
       "correct_answer": "Boston Red Sox",
       "incorrect_answers": [
         "New York Mets",
@@ -53,7 +53,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama 'The X-Files'?",
       "correct_answer": "David Duchovny",
       "incorrect_answers": [
         "Gillian Anderson",
@@ -89,7 +89,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+      "question": "In which British seaside town was the BBC sitcom 'Fawlty Towers' set?",
       "correct_answer": "Torquay",
       "incorrect_answers": [
         "Blackpool",
@@ -149,7 +149,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "question": "The 'Psycho' series of videos on YouTube was created by which of the following?",
       "correct_answer": "RiDGiD STUDiOS",
       "incorrect_answers": [
         "Dan Bell",
@@ -161,7 +161,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which company has exclusive rights to air episodes of the &quot;The Grand Tour&quot;?",
+      "question": "Which company has exclusive rights to air episodes of the 'The Grand Tour'?",
       "correct_answer": "Amazon",
       "incorrect_answers": [
         "Netflix",
@@ -185,7 +185,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "On the show &quot;Rick and Morty&quot;, in episode &quot;Total Rickall&quot;, who was a parasite?",
+      "question": "On the show 'Rick and Morty', in episode 'Total Rickall', who was a parasite?",
       "correct_answer": "Pencilvester",
       "incorrect_answers": [
         "Beth Smith",
@@ -269,7 +269,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the show &quot;Tengen Toppa Gurren Lagann&quot; what is the name of the character who force everyone to live underground?",
+      "question": "In the show 'Tengen Toppa Gurren Lagann' what is the name of the character who force everyone to live underground?",
       "correct_answer": "Lordgenome",
       "incorrect_answers": [
         "Kingloname",
@@ -293,7 +293,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the main character in &quot;The Flash&quot; TV series?",
+      "question": "What is the name of the main character in 'The Flash' TV series?",
       "correct_answer": "Barry Allen",
       "incorrect_answers": [
         "Oliver Queen",
@@ -305,7 +305,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which show is known for the songs &quot;You are a Pirate&quot;, &quot;Cooking by the Book&quot; and &quot;We Are Number One&quot;?",
+      "question": "Which show is known for the songs 'You are a Pirate', 'Cooking by the Book' and 'We Are Number One'?",
       "correct_answer": "LazyTown",
       "incorrect_answers": [
         "Sofia the First",
@@ -334,14 +334,14 @@
       "incorrect_answers": [
         "Christopher Hall",
         "Pauline Bennett",
-        "Pavandeep &quot;Pav&quot; Paul"
+        "Pavandeep 'Pav' Paul"
       ]
     },
     {
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In season one of the Netflix political drama &quot;House of Cards&quot;, what government position does Frank Underwood hold?",
+      "question": "In season one of the Netflix political drama 'House of Cards', what government position does Frank Underwood hold?",
       "correct_answer": "House Majority Whip",
       "incorrect_answers": [
         "Attorney General",
@@ -353,7 +353,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Breaking Bad&quot;, Walter White is a high school teacher diagnosed with which form of cancer?",
+      "question": "In 'Breaking Bad', Walter White is a high school teacher diagnosed with which form of cancer?",
       "correct_answer": "Lung Cancer",
       "incorrect_answers": [
         "Prostate Cancer",
@@ -365,7 +365,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "British actor David Morrissey stars as which role in &quot;The Walking Dead&quot;?",
+      "question": "British actor David Morrissey stars as which role in 'The Walking Dead'?",
       "correct_answer": "The Governor",
       "incorrect_answers": [
         "Negan",
@@ -389,7 +389,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How many seasons did the Sci-Fi television show &quot;Stargate Atlantis&quot; have?",
+      "question": "How many seasons did the Sci-Fi television show 'Stargate Atlantis' have?",
       "correct_answer": "5",
       "incorrect_answers": [
         "10",
@@ -401,7 +401,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "How many seasons did the Sci-Fi television show &quot;Stargate Universe&quot; have?",
+      "question": "How many seasons did the Sci-Fi television show 'Stargate Universe' have?",
       "correct_answer": "2",
       "incorrect_answers": [
         "10",
@@ -413,7 +413,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the planet that the Doctor from television series &quot;Doctor Who&quot; comes from?",
+      "question": "What is the name of the planet that the Doctor from television series 'Doctor Who' comes from?",
       "correct_answer": "Gallifrey",
       "incorrect_answers": [
         "Sontar",
@@ -425,7 +425,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who played the Waitress in the Spam sketch of &quot;Monty Python's Flying Circus&quot;?",
+      "question": "Who played the Waitress in the Spam sketch of 'Monty Python's Flying Circus'?",
       "correct_answer": "Terry Jones",
       "incorrect_answers": [
         "Eric Idle",
@@ -437,7 +437,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Star Trek: Voyager&quot;, which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+      "question": "In 'Star Trek: Voyager', which episode did Voyager establish real-time communication with Starfleet Headquarters?",
       "correct_answer": "Pathfinder",
       "incorrect_answers": [
         "Message In A Bottle",
@@ -449,7 +449,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who was the first ever actor to play &quot;The Doctor&quot; on &quot;Doctor Who&quot;?",
+      "question": "Who was the first ever actor to play 'The Doctor' on 'Doctor Who'?",
       "correct_answer": "William Hartnell",
       "incorrect_answers": [
         "David Tennant",
@@ -461,7 +461,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which actor portrays &quot;Walter White&quot; in the series &quot;Breaking Bad&quot;?",
+      "question": "Which actor portrays 'Walter White' in the series 'Breaking Bad'?",
       "correct_answer": " Bryan Cranston",
       "incorrect_answers": [
         "Andrew Lincoln",
@@ -485,7 +485,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "On the NBC show Community, whose catch-phrase was &quot;Pop! Pop!&quot;?",
+      "question": "On the NBC show Community, whose catch-phrase was 'Pop! Pop!'?",
       "correct_answer": "Magnitude",
       "incorrect_answers": [
         "Star Burns",
@@ -497,7 +497,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The HBO series &quot;Game of Thrones&quot; is based on which series of books?",
+      "question": "The HBO series 'Game of Thrones' is based on which series of books?",
       "correct_answer": "A Song of Ice and Fire",
       "incorrect_answers": [
         "The Wheel of Time",
@@ -509,7 +509,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In AMC's TV Series &quot;The Walking Dead&quot; what are &quot;Zombies&quot; referred to as?",
+      "question": "In AMC's TV Series 'The Walking Dead' what are 'Zombies' referred to as?",
       "correct_answer": "Walkers",
       "incorrect_answers": [
         "Creepers",
@@ -521,7 +521,7 @@
       "category": "Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Rick And Morty&quot;, who shot &quot;Mr. Poopybutthole&quot; in the episode &quot;Total Rickall&quot;?",
+      "question": "In 'Rick And Morty', who shot 'Mr. Poopybutthole' in the episode 'Total Rickall'?",
       "correct_answer": "Beth",
       "incorrect_answers": [
         "Rick",

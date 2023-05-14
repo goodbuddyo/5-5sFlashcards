@@ -17,7 +17,7 @@
       "category": "Science: Gadgets",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which company designed the &quot;Betamax&quot; video cassette format?",
+      "question": "Which company designed the 'Betamax' video cassette format?",
       "correct_answer": "Sony",
       "incorrect_answers": [
         "Panasonic",
@@ -101,7 +101,7 @@
       "category": "Science: Gadgets",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the &quot;Mitsubishi Wakamaru&quot;?",
+      "question": "What is the 'Mitsubishi Wakamaru'?",
       "correct_answer": "A robot",
       "incorrect_answers": [
         "A pickup truck",

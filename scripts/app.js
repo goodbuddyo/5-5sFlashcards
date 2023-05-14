@@ -1,7 +1,4 @@
 
-
-// credit Maximiliano Firtman and Corey House for help with many features
-
 window.addEventListener("DOMContentLoaded",() => {
   //let all_select_values=[];
 
@@ -300,8 +297,7 @@ function renderQuestionDetails(questionData) {
     document.querySelector(".q_source").textContent=questionData.q_source;
   }
 
-
-
-
-
 }
+
+// credit Maximiliano Firtman and Corey House for help with many features
+

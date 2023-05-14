@@ -137,7 +137,7 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+      "question": "Which of the following European languages is classified as a 'language isolate?'",
       "correct_answer": "Basque",
       "incorrect_answers": [
         "Galician",
@@ -149,7 +149,7 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+      "question": "The derisive acronym 'PIIGS' refers to which of the following European countries and their economic statuses?",
       "correct_answer": "Portugal, Ireland, Italy, Greece, Spain",
       "incorrect_answers": [
         "Poland, Iceland, Italy, Greece, Serbia",
@@ -545,7 +545,7 @@
       "category": "Geography",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Where would you find the &quot;Spanish Steps&quot;?",
+      "question": "Where would you find the 'Spanish Steps'?",
       "correct_answer": "Rome, Italy",
       "incorrect_answers": [
         "Barcelona, Spain",

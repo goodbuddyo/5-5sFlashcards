@@ -125,7 +125,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
+      "question": "Before the 19th Century, the 'Living Room' was originally called the...",
       "correct_answer": "Parlor",
       "incorrect_answers": [
         "Open Room",
@@ -269,7 +269,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+      "question": "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...'",
       "correct_answer": "Truth",
       "incorrect_answers": [
         "Answer",
@@ -521,7 +521,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the MMO RPG &quot;Realm of the Mad God&quot;, what dungeon is widely considered to be the most difficult?",
+      "question": "In the MMO RPG 'Realm of the Mad God', what dungeon is widely considered to be the most difficult?",
       "correct_answer": "The Shatter's",
       "incorrect_answers": [
         "Snake Pit",
@@ -557,7 +557,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the French word for &quot;fish&quot;?",
+      "question": "What is the French word for 'fish'?",
       "correct_answer": "poisson",
       "incorrect_answers": [
         "fiche",

@@ -1,7 +1,4 @@
 
-// Credit: Mateusz Rybczonec
-// https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ 
-
 window.addEventListener("DOMContentLoaded",() => {
 
   const FULL_DASH_ARRAY=283;
@@ -131,3 +128,8 @@ window.addEventListener("DOMContentLoaded",() => {
       setAttribute("stroke-dasharray",circleDasharray);
   }
 });
+
+
+// Credit: Mateusz Rybczonec
+// https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/ 
+

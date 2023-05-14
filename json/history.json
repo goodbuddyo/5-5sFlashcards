@@ -137,7 +137,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he\/she never said it at all?",
+      "question": "Which famous world leader is famed for the saying, 'Let them eat cake', yet is rumored that he\/she never said it at all?",
       "correct_answer": "Marie Antoinette",
       "incorrect_answers": [
         "Czar Nicholas II",
@@ -401,7 +401,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+      "question": "Which modern country is known as 'The Graveyard of Empires'?",
       "correct_answer": "Afghanistan",
       "incorrect_answers": [
         "China",

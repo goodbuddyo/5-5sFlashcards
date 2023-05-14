@@ -2,10 +2,10 @@
   "response_code": 0,
   "results": [
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who wrote and directed the animated movie &quot;Spirited Away&quot; (2001)?",
+      "question": "Who wrote and directed the animated movie 'Spirited Away' (2001)?",
       "correct_answer": "Hayao Miyazaki",
       "incorrect_answers": [
         "Isao Takahata",
@@ -14,10 +14,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+      "question": "Which anime heavily features music from the genre 'Eurobeat'?",
       "correct_answer": "Initial D",
       "incorrect_answers": [
         "Wangan Midnight",
@@ -26,10 +26,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the anime &quot;Mr. Osomatsu&quot;, how many brothers does Osomatsu-san have?",
+      "question": "In the anime 'Mr. Osomatsu', how many brothers does Osomatsu-san have?",
       "correct_answer": "5",
       "incorrect_answers": [
         "6",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
       "question": "In the anime Initial D, how does Takumi Fujiwara describe a drift?",
@@ -50,10 +50,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Inuyasha&quot;, what are the heros are looking to collect?",
+      "question": "In 'Inuyasha', what are the heros are looking to collect?",
       "correct_answer": "Jewel Shards",
       "incorrect_answers": [
         "Dragon Balls",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "What is the name of the corgi in Cowboy Bebop?",
@@ -74,10 +74,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What year was &quot;JoJo's Bizarre Adventure: Phantom Blood&quot; first released?",
+      "question": "What year was 'JoJo's Bizarre Adventure: Phantom Blood' first released?",
       "correct_answer": "1987",
       "incorrect_answers": [
         "2013",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "What was Ash Ketchum's second Pokemon?",
@@ -98,19 +98,19 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
-      "correct_answer": "&quot;How disgusting.&quot;",
+      "question": "What is the last line muttered in the anime film 'The End of Evangelion'?",
+      "correct_answer": "'How disgusting.'",
       "incorrect_answers": [
-        "&quot;Idiot, I won't let you kill me!&quot;",
-        "&quot;Nothing.&quot;",
-        "&quot;Goddammit, Shinji.&quot;"
+        "'Idiot, I won't let you kill me!'",
+        "'Nothing.'",
+        "'Goddammit, Shinji.'"
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "In the anime Seven Deadly Sins what is the name of one of the sins?",
@@ -134,10 +134,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What year did the anime &quot;Himouto! Umaru-chan&quot; air?",
+      "question": "What year did the anime 'Himouto! Umaru-chan' air?",
       "correct_answer": "2015",
       "incorrect_answers": [
         "2014",
@@ -146,10 +146,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;A Certain Scientific Railgun&quot;, how many &quot;sisters&quot; did Accelerator have to kill to achieve the rumored level 6?",
+      "question": "In 'A Certain Scientific Railgun', how many 'sisters' did Accelerator have to kill to achieve the rumored level 6?",
       "correct_answer": "20,000",
       "incorrect_answers": [
         "128",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
@@ -170,10 +170,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who is the author of the manga series &quot;Astro Boy&quot;?",
+      "question": "Who is the author of the manga series 'Astro Boy'?",
       "correct_answer": "Osamu Tezuka",
       "incorrect_answers": [
         "Mitsuteri Yokoyama",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of the following anime of the mecha genre began airing in 1982?",
@@ -194,10 +194,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "On what medium was &quot;Clannad&quot; first created?",
+      "question": "On what medium was 'Clannad' first created?",
       "correct_answer": "Visual novel",
       "incorrect_answers": [
         "Anime",
@@ -206,10 +206,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?",
+      "question": "In the 2012 animated film 'Wolf Children', what are the names of the wolf children?",
       "correct_answer": "Ame &amp; Yuki",
       "incorrect_answers": [
         "Hana &amp; Yuki",
@@ -218,10 +218,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The character Plum from &quot;No Game No Life&quot; is of what race?",
+      "question": "The character Plum from 'No Game No Life' is of what race?",
       "correct_answer": "Dhampir",
       "incorrect_answers": [
         "Fl&uuml;gel",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which anime did Seiji Kishi NOT direct?",
@@ -242,10 +242,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Akatsuki's subclass in &quot;Log Horizon&quot; is what?",
+      "question": "Akatsuki's subclass in 'Log Horizon' is what?",
       "correct_answer": " Tracker",
       "incorrect_answers": [
         "Assassin",
@@ -254,10 +254,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Satella in &quot;Re:Zero&quot; is the witch of what?",
+      "question": "Satella in 'Re:Zero' is the witch of what?",
       "correct_answer": "Envy",
       "incorrect_answers": [
         "Pride",
@@ -266,11 +266,11 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?",
-      "correct_answer": "Edward &quot;Whitebeard&quot; Newgate",
+      "question": "In 'One Piece', who confirms the existence of the legendary treasure, One Piece?",
+      "correct_answer": "Edward 'Whitebeard' Newgate",
       "incorrect_answers": [
         "Former Marine Fleet Admiral Sengoku",
         "Pirate King Gol D Roger",
@@ -278,10 +278,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Toriko&quot;, which of the following foods is knowingly compatible with Toriko?",
+      "question": "In 'Toriko', which of the following foods is knowingly compatible with Toriko?",
       "correct_answer": "Poison Potato",
       "incorrect_answers": [
         "Mors Oil",
@@ -290,10 +290,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Toriko&quot;, which of the following Heavenly Kings has an enhanced sense of Hearing?",
+      "question": "In 'Toriko', which of the following Heavenly Kings has an enhanced sense of Hearing?",
       "correct_answer": "Zebra",
       "incorrect_answers": [
         "Coco",
@@ -302,10 +302,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What year does Part 7 of &quot;JoJo's Bizarre Adventure&quot; take place in?",
+      "question": "What year does Part 7 of 'JoJo's Bizarre Adventure' take place in?",
       "correct_answer": "1890",
       "incorrect_answers": [
         "1888",
@@ -314,10 +314,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is the creator of the manga series &quot;One Piece&quot;?",
+      "question": "Who is the creator of the manga series 'One Piece'?",
       "correct_answer": "Eiichiro Oda",
       "incorrect_answers": [
         "Yoshihiro Togashi",
@@ -326,10 +326,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In &quot;Hunter x Hunter&quot;, which of the following is NOT a type of Nen aura?",
+      "question": "In 'Hunter x Hunter', which of the following is NOT a type of Nen aura?",
       "correct_answer": "Restoration",
       "incorrect_answers": [
         "Emission",
@@ -338,10 +338,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What year did &quot;Bishoujo Senshi Sailor Moon&quot; air in Japan?",
+      "question": "What year did 'Bishoujo Senshi Sailor Moon' air in Japan?",
       "correct_answer": "1992",
       "incorrect_answers": [
         "1989",
@@ -350,10 +350,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who is the colossal titan in &quot;Attack On Titan&quot;?",
+      "question": "Who is the colossal titan in 'Attack On Titan'?",
       "correct_answer": "Bertolt Hoover",
       "incorrect_answers": [
         "Reiner",
@@ -362,10 +362,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "The &quot;To Love-Ru&quot; Manga was started in what year?",
+      "question": "The 'To Love-Ru' Manga was started in what year?",
       "correct_answer": "2006",
       "incorrect_answers": [
         "2007",
@@ -374,10 +374,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Little Witch Academia&quot;, what is Shiny Chariot's alias at Luna Nova Academy?",
+      "question": "In 'Little Witch Academia', what is Shiny Chariot's alias at Luna Nova Academy?",
       "correct_answer": "Ursula Callistis",
       "incorrect_answers": [
         "Croix Meridies",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
@@ -398,10 +398,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In &quot;Jewelpet Sunshine&quot;, what is the song that plays when Kanon and her friends bust out of prison?",
+      "question": "In 'Jewelpet Sunshine', what is the song that plays when Kanon and her friends bust out of prison?",
       "correct_answer": "I Don't Want to Miss a Thing",
       "incorrect_answers": [
         "Eye Of The Tiger",
@@ -410,10 +410,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What animation studio produced &quot;Gurren Lagann&quot;?",
+      "question": "What animation studio produced 'Gurren Lagann'?",
       "correct_answer": "Gainax",
       "incorrect_answers": [
         "Kyoto Animation",
@@ -422,10 +422,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka's younger brother?",
+      "question": "In 'Puella Magi Madoka Magica', what is the first name of Madoka's younger brother?",
       "correct_answer": "Tatsuya",
       "incorrect_answers": [
         "Montoya",
@@ -434,10 +434,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which animation studio produced the anime adaptation of &quot;xxxHolic&quot;?",
+      "question": "Which animation studio produced the anime adaptation of 'xxxHolic'?",
       "correct_answer": "Production I.G",
       "incorrect_answers": [
         "Sunrise",
@@ -446,10 +446,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which animation studio produced &quot;Log Horizon&quot;?",
+      "question": "Which animation studio produced 'Log Horizon'?",
       "correct_answer": "Satelite",
       "incorrect_answers": [
         "Sunrise",
@@ -458,7 +458,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What studio animated Fullmetal Alchemist?",
@@ -470,10 +470,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the theme song of &quot;Neon Genesis Evangelion&quot;?",
+      "question": "What is the theme song of 'Neon Genesis Evangelion'?",
       "correct_answer": "A Cruel Angel's Thesis",
       "incorrect_answers": [
         "Stardust Crusaders",
@@ -482,7 +482,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
       "question": "In the Overlord Anime who was Cocytus made by?",
@@ -494,7 +494,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?",
@@ -506,10 +506,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;JoJo's Bizzare Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?",
+      "question": "In 'JoJo's Bizzare Adventure: Stardust Crusaders', what is the last name of the protagonist Jotaro?",
       "correct_answer": "Kujo",
       "incorrect_answers": [
         "Cujoh",
@@ -518,7 +518,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "Who is the main heroine of the anime, Full Metal Panic!",
@@ -530,7 +530,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "hard",
       "question": "Who was the Author of the manga Monster Hunter Orage?",
@@ -542,7 +542,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
@@ -554,10 +554,10 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What name is the main character Chihiro given in the 2001 movie &quot;Spirited Away&quot;?",
+      "question": "What name is the main character Chihiro given in the 2001 movie 'Spirited Away'?",
       "correct_answer": "Sen (Thousand)",
       "incorrect_answers": [
         "Hyaku (Hundred)",
@@ -566,7 +566,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "Which of the following films was NOT directed by Hayao Miyazaki?",
@@ -578,7 +578,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "medium",
       "question": "In the series JoJo's Bizarre Adventure, which main character makes the greatest number of recurring appearances?",
@@ -590,7 +590,7 @@
       ]
     },
     {
-      "category": "Japanese Anime & Manga",
+      "category": "Japanese Anime",
       "type": "multiple",
       "difficulty": "easy",
       "question": "In the Naruto manga, what is the last name of Tsunade?",

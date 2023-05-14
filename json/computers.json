@@ -161,7 +161,7 @@
       "category": "Science: Computers",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In most programming languages, the operator ++ is equivalent to the statement &quot;+= 1&quot;.",
+      "question": "In most programming languages, the operator ++ is equivalent to the statement '+= 1'.",
       "correct_answer": "True",
       "incorrect_answers": [
         "False"
@@ -407,7 +407,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What does the &quot;MP&quot; stand for in MP3?",
+      "question": "What does the 'MP' stand for in MP3?",
       "correct_answer": "Moving Picture",
       "incorrect_answers": [
         "Music Player",

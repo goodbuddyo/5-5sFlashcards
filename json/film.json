@@ -8,16 +8,16 @@
       "question": "Which of the following is NOT a quote from the 1942 film Casablanca? 'Here's lookin' at you, kid.', 'Frankly, my dear, I don't give a damn.', 'Of all the gin joints, in all the towns, in all the world, she walks into mine.', 'Round up the usual suspects.' ",
       "correct_answer": "Frankly, my dear, I don't give a damn.",
       "incorrect_answers": [
-        "&quot;Here's lookin' at you, kid.&quot;",
+        "'Here's lookin' at you, kid.'",
         "&ldquo;Of all the gin joints, in all the towns, in all the world, she walks into mine&hellip;&rdquo;",
-        "&quot;Round up the usual suspects.&quot;"
+        "'Round up the usual suspects.'"
       ]
     },
     {
       "category": "Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the 1971 film &quot;Willy Wonka &amp; the Chocolate Factory&quot;, who played Willy Wonka?",
+      "question": "In the 1971 film 'Willy Wonka &amp; the Chocolate Factory', who played Willy Wonka?",
       "correct_answer": "Gene Wilder",
       "incorrect_answers": [
         "Shia LeBouf",
@@ -41,7 +41,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What year did the James Cameron film &quot;Titanic&quot; come out in theaters?",
+      "question": "What year did the James Cameron film 'Titanic' come out in theaters?",
       "correct_answer": "1997",
       "incorrect_answers": [
         "1996",
@@ -53,7 +53,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?",
+      "question": "What is the species of the 'Predator' in the 1987 movie 'Predator'?",
       "correct_answer": "Yautja",
       "incorrect_answers": [
         "Xenomorph",
@@ -101,7 +101,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the 1974 Christmas flick &quot;The Year Without a Santa Claus,&quot; what are the names of the two elves who help Mrs. Claus save Christmas?",
+      "question": "In the 1974 Christmas flick 'The Year Without a Santa Claus,' what are the names of the two elves who help Mrs. Claus save Christmas?",
       "correct_answer": "Jingle &amp; Jangle",
       "incorrect_answers": [
         "Buddy &amp; Bobby",
@@ -125,7 +125,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of the following was not one of &quot;The Magnificent Seven&quot;?",
+      "question": "Which of the following was not one of 'The Magnificent Seven'?",
       "correct_answer": "Clint Eastwood",
       "incorrect_answers": [
         "Steve McQueen",
@@ -185,7 +185,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+      "question": "This movie contains the quote, 'I feel the need ... the need for speed!'",
       "correct_answer": "Top Gun",
       "incorrect_answers": [
         "Days of Thunder",
@@ -197,7 +197,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In 2012, which movie won every category in the 32nd &quot;Golden Raspberry Awards&quot;?",
+      "question": "In 2012, which movie won every category in the 32nd 'Golden Raspberry Awards'?",
       "correct_answer": "Jack and Jill",
       "incorrect_answers": [
         "The Girl with the Dragon Tattoo",
@@ -245,7 +245,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What city did the monster attack in the film, &quot;Cloverfield&quot;?",
+      "question": "What city did the monster attack in the film, 'Cloverfield'?",
       "correct_answer": "New York, New York",
       "incorrect_answers": [
         "Las Vegas, Nevada",
@@ -257,7 +257,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In &quot;Star Trek Nemesis&quot;, why was Praetor Shinzon created?",
+      "question": "In 'Star Trek Nemesis', why was Praetor Shinzon created?",
       "correct_answer": "To replace Picard as a Romulan Agent",
       "incorrect_answers": [
         "To destroy the Enterprise",
@@ -281,7 +281,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Before &quot;Jurassic Park III&quot; was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+      "question": "Before 'Jurassic Park III' was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
       "correct_answer": "Baryonyx",
       "incorrect_answers": [
         "Tyrannosaurus Rex",
@@ -293,7 +293,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the &quot;Jurassic Park&quot; universe, what was the first dinosaur cloned by InGen in 1986?",
+      "question": "In the 'Jurassic Park' universe, what was the first dinosaur cloned by InGen in 1986?",
       "correct_answer": "Velociraptor",
       "incorrect_answers": [
         "Triceratops",
@@ -305,7 +305,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which stand-up comedian voiced the talking parrot &quot;Iago&quot; in Disney's 1992 adaptation of Aladdin?",
+      "question": "Which stand-up comedian voiced the talking parrot 'Iago' in Disney's 1992 adaptation of Aladdin?",
       "correct_answer": "Gilbert Gottfried",
       "incorrect_answers": [
         "Robin Williams",
@@ -317,7 +317,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the film &quot;Requiem for a Dream&quot;, what drug does Jared Leto's character get addicted to?",
+      "question": "In the film 'Requiem for a Dream', what drug does Jared Leto's character get addicted to?",
       "correct_answer": "Heroin",
       "incorrect_answers": [
         "Cocaine",
@@ -341,7 +341,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the movie &quot;V for Vendetta,&quot; what is the date that masked vigilante &quot;V&quot; urges people to remember?",
+      "question": "In the movie 'V for Vendetta,' what is the date that masked vigilante 'V' urges people to remember?",
       "correct_answer": "November 5th",
       "incorrect_answers": [
         "November 6th",
@@ -389,7 +389,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie &quot;Batman&quot;?",
+      "question": "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie 'Batman'?",
       "correct_answer": "Michael Keaton",
       "incorrect_answers": [
         "George Clooney",
@@ -449,7 +449,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who starred in the film 1973 movie &quot;Enter The Dragon&quot;?",
+      "question": "Who starred in the film 1973 movie 'Enter The Dragon'?",
       "correct_answer": "Bruce Lee",
       "incorrect_answers": [
         "Jackie Chan",
@@ -461,7 +461,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+      "question": "Who directed the movies 'Pulp Fiction', 'Reservoir Dogs' and 'Django Unchained'?",
       "correct_answer": "Quentin Tarantino",
       "incorrect_answers": [
         "Martin Scorcese",
@@ -497,7 +497,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "This movie contains the quote, &quot;Houston, we have a problem.&quot;",
+      "question": "This movie contains the quote, 'Houston, we have a problem.'",
       "correct_answer": "Apollo 13",
       "incorrect_answers": [
         "The Right Stuff",
@@ -509,7 +509,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the orange and white bot's name in &quot;Star Wars: The Force Awakens&quot;?",
+      "question": "What is the orange and white bot's name in 'Star Wars: The Force Awakens'?",
       "correct_answer": "BB-8",
       "incorrect_answers": [
         "BB-3",
@@ -569,7 +569,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Jurassic World&quot;, what is the name of the dinosaur that is a genetic hybrid?",
+      "question": "In 'Jurassic World', what is the name of the dinosaur that is a genetic hybrid?",
       "correct_answer": "Indominus Rex",
       "incorrect_answers": [
         "Mosasaurus",
@@ -581,7 +581,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+      "question": "The 2002 film '28 Days Later' is mainly set in which European country?",
       "correct_answer": "United Kingdom",
       "incorrect_answers": [
         "France",
@@ -593,7 +593,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+      "question": "In the movie 'Spaceballs', what are the Spaceballs attempting to steal from Planet Druidia?",
       "correct_answer": "Air",
       "incorrect_answers": [
         "The Schwartz",
@@ -629,7 +629,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "When does &quot;Rogue One: A Star Wars Story&quot; take place chronologically in the series?",
+      "question": "When does 'Rogue One: A Star Wars Story' take place chronologically in the series?",
       "correct_answer": "Between Episode 3 and 4",
       "incorrect_answers": [
         "After Episode 6",
@@ -641,7 +641,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "&quot;The first rule is: you don't talk about it&quot; is a reference to which movie?",
+      "question": "'The first rule is: you don't talk about it' is a reference to which movie?",
       "correct_answer": "Fight Club",
       "incorrect_answers": [
         "The Island",
@@ -653,7 +653,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
+      "question": "In the 2012 film, 'The Lorax', who is the antagonist?",
       "correct_answer": "Aloysius O'Hare",
       "incorrect_answers": [
         "Ted Wiggins",
@@ -665,7 +665,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the 1992 film &quot;Army of Darkness&quot;, what name does Ash give to his double-barreled shotgun?",
+      "question": "In the 1992 film 'Army of Darkness', what name does Ash give to his double-barreled shotgun?",
       "correct_answer": "Boomstick",
       "incorrect_answers": [
         "Bloomstick",
@@ -677,7 +677,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+      "question": "At the end of the 2001 film 'Rat Race', whose concert do the contestants crash?",
       "correct_answer": "Smash Mouth",
       "incorrect_answers": [
         "Bowling for Soup",
@@ -701,7 +701,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+      "question": "In the movie 'Blade Runner', what is the term used for human-like androids ?",
       "correct_answer": "Replicants",
       "incorrect_answers": [
         "Cylons",
@@ -713,7 +713,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the 1995 film &quot;Balto&quot;, who are Steele's accomplices?",
+      "question": "In the 1995 film 'Balto', who are Steele's accomplices?",
       "correct_answer": "Kaltag, Nikki, and Star",
       "incorrect_answers": [
         "Dusty, Kirby, and Ralph",
@@ -725,7 +725,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the island that &quot;Jurassic Park&quot; is built on?",
+      "question": "What is the name of the island that 'Jurassic Park' is built on?",
       "correct_answer": "Isla Nublar",
       "incorrect_answers": [
         "Isla Sorna",
@@ -749,7 +749,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+      "question": "For the film 'Raiders of The Lost Ark', what was Harrison Ford sick with during the filming of the Cairo chase?",
       "correct_answer": "Dysentery",
       "incorrect_answers": [
         "Anemia",
@@ -797,7 +797,7 @@
       "category": "Film",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;ALF&quot;, what was ALF's real name?",
+      "question": "In 'ALF', what was ALF's real name?",
       "correct_answer": "Gordon Shumway",
       "incorrect_answers": [
         "Gordon Milipp",

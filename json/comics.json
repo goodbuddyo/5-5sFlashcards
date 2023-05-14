@@ -53,7 +53,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who is the creator of the comic series &quot;The Walking Dead&quot;?",
+      "question": "Who is the creator of the comic series 'The Walking Dead'?",
       "correct_answer": "Robert Kirkman",
       "incorrect_answers": [
         "Stan Lee",
@@ -113,7 +113,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which issue of the &quot;Sonic the Hedgehog&quot; comic did Scourge the Hedgehog make his first appearance?",
+      "question": "Which issue of the 'Sonic the Hedgehog' comic did Scourge the Hedgehog make his first appearance?",
       "correct_answer": "Sonic the Hedgehog #11",
       "incorrect_answers": [
         "Sonic Universe #32",
@@ -125,7 +125,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In &quot;Sonic the Hedgehog&quot; comic, who was the creator of Roboticizer? ",
+      "question": "In 'Sonic the Hedgehog' comic, who was the creator of Roboticizer? ",
       "correct_answer": "Professor Charles the Hedgehog",
       "incorrect_answers": [
         "Julian Robotnik",
@@ -137,7 +137,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which universe crossover was introduced in the &quot;Sonic the Hedgehog&quot; comic issue #247?",
+      "question": "Which universe crossover was introduced in the 'Sonic the Hedgehog' comic issue #247?",
       "correct_answer": "Mega Man",
       "incorrect_answers": [
         "Super Mario Brothers",
@@ -197,7 +197,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In what year did the first &quot;The Walking Dead&quot; comic come out?",
+      "question": "In what year did the first 'The Walking Dead' comic come out?",
       "correct_answer": "2003",
       "incorrect_answers": [
         "2001",
@@ -221,7 +221,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the alter-ego of the DC comics character &quot;Superman&quot;?",
+      "question": "What is the alter-ego of the DC comics character 'Superman'?",
       "correct_answer": "Clark Kent",
       "incorrect_answers": [
         "Bruce Wayne",
@@ -233,7 +233,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the webcomic &quot;Ava's Demon&quot;, what sin is &quot;Nevy Nervine&quot; based off of? ",
+      "question": "In the webcomic 'Ava's Demon', what sin is 'Nevy Nervine' based off of? ",
       "correct_answer": "Envy ",
       "incorrect_answers": [
         "Sloth",
@@ -245,7 +245,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which &quot;Green Arrow&quot; sidekick commonly wears a baseball cap?",
+      "question": "Which 'Green Arrow' sidekick commonly wears a baseball cap?",
       "correct_answer": "Roy Harper",
       "incorrect_answers": [
         "Black Canary",
@@ -377,7 +377,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the real name of the &quot;Master Of Magnetism&quot; Magneto?",
+      "question": "What is the real name of the 'Master Of Magnetism' Magneto?",
       "correct_answer": "Max Eisenhardt",
       "incorrect_answers": [
         "Charles Xavier",
@@ -389,7 +389,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What are the names of the two &quot;Canon fan trolls&quot; in &quot;Homestuck&quot;?",
+      "question": "What are the names of the two 'Canon fan trolls' in 'Homestuck'?",
       "correct_answer": "Mierfa Durgas and Nektan Whelan",
       "incorrect_answers": [
         "The Wrycrown and Voksea Olkido",
@@ -401,7 +401,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Homestuck&quot; what is Dave Strider's guardian?",
+      "question": "In 'Homestuck' what is Dave Strider's guardian?",
       "correct_answer": "Bro",
       "incorrect_answers": [
         "Becquerel",
@@ -413,7 +413,7 @@
       "category": "Comics",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In &quot;Homestuck&quot; the &quot;Kingdom of Darkness&quot; is also known as?",
+      "question": "In 'Homestuck' the 'Kingdom of Darkness' is also known as?",
       "correct_answer": "Derse",
       "incorrect_answers": [
         "Skaia",
@@ -574,7 +574,7 @@
       "incorrect_answers": [
         "Hattie Hargrove",
         "Pearl Jones",
-        "James &quot;Jim&quot; Book"
+        "James 'Jim' Book"
       ]
     },
     {

@@ -29,7 +29,7 @@
       "category": "Science: Mathematics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What are the first 6 digits of the number &quot;Pi&quot;?",
+      "question": "What are the first 6 digits of the number 'Pi'?",
       "correct_answer": "3.14159",
       "incorrect_answers": [
         "3.14169",
@@ -65,7 +65,7 @@
       "category": "Science: Mathematics",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting &quot;Eureka&quot; after discovering the principle of displacement?",
+      "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting 'Eureka' after discovering the principle of displacement?",
       "correct_answer": "Archimedes",
       "incorrect_answers": [
         "Euclid",
