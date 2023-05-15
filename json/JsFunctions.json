@@ -1,0 +1,135 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "A function that calls itself ?",
+      "correct_answer": "A recursive function",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/Function",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "These functions run as soon as they are defined and are identified by an extra set of parenthesis at the end of their definition.?",
+      "correct_answer": "Immediately Invoked Function Expressions (IIFEs)",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/IIFE",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "which ?",
+      "correct_answer": "Zealand",
+      "q_source": "w3schools",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Term for when the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. ?",
+      "correct_answer": "Hoisting",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/Hoisting",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "3 basic kinds of scope in Javascript include Function scope, Module scope and this default scope for all code running in script mode ?",
+      "correct_answer": "Global scope",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/Scope",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "which ?",
+      "correct_answer": "Zealand",
+      "q_source": "w3schools",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "which ?",
+      "correct_answer": "Zealand",
+      "q_source": "w3schools",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The scope created with a pair of curly braces ?",
+      "correct_answer": "Block scope",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/Scope",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Although they are similar, call() accepts an argument list, but apply() accepts a single one of these ?",
+      "correct_answer": "Array of arguments",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsFunctions",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "This operator is used to pause and resume a generator function. ?",
+      "correct_answer": "Yield",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    }
+  ]
+}

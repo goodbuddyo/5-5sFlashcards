@@ -1,0 +1,135 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Data that is not an object, has no methods or properties and is immutable is called this type of data?",
+      "correct_answer": "Primitive",
+      "q_source": "developer.mozilla.org/en-US/docs/Glossary/Primitive",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Javascript Number literals are not integers, they are this type of value ?",
+      "correct_answer": "A Float (floating-point value, or double-precision floating-point number)",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Numbe",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When unsure if a variable value is type string or some other type, which operator can confirm it for you ?",
+      "correct_answer": "typeof",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "When a String literal is specified using the backtick character `` it is known at this type of literal?",
+      "correct_answer": "A Template Literal  or   Template String",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Sometimes called a 'decimal point' or 'binary point', what is the technical name for the symbol used to separate the integer part of a number value from its fractional part ?",
+      "correct_answer": "radix point or radix character",
+      "q_source": "en.wikipedia.org/wiki/Decimal_separator",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which method determines if an array contains a specific value, returning true or false as appropriate?",
+      "correct_answer": "includes()",
+      "q_source": "en.wikipedia.org/wiki/Decimal_separator",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "This method will make all the characters in a string uppercase ?",
+      "correct_answer": ".toUpperCase()",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which method returns the character index of the first occurrence of a search value in a string, or -1 if not found ?",
+      "correct_answer": ".indexOf()",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which method extracts a section of a string and returns a new string without modifying the original string ?",
+      "correct_answer": " .slice()   (will accept substring() )",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    },
+    {
+      "category": "JsTypes",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which method removes whitespace from both ends of a string and returns a new string, without modifying the original string ?",
+      "correct_answer": ".trim()",
+      "q_source": "developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim",
+      "incorrect_answers": [
+        "XX",
+        "YY",
+        "ZZ"
+      ]
+    }
+  ]
+}

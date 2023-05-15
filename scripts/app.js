@@ -261,35 +261,6 @@ window.addEventListener("DOMContentLoaded",() => {
         })
 
 
-        //function setThemeColor(color) {
-        //  const header=document.querySelector("header");
-        //  header.style.backgroundColor=color;
-        //  header.addEventListener("transitionend",() => {
-        //    document.querySelector("meta[name=theme-color]").content=color;
-        //  })
-        //}
-
-        //document.addEventListener("routerender",() => {
-        //  setThemeColor("black");
-        //})
-
-        //document.addEventListener("eventsload",event => {
-        //  const trs=document.querySelectorAll("#page-home tr");
-        //  trs.forEach(tr => {
-        //    tr.addEventListener("mouseover",event => {
-        //      tr.classList.add("over");
-        //      setThemeColor(event.currentTarget.dataset.color);
-        //    });
-        //    tr.addEventListener("mouseout",event => {
-        //      tr.classList.remove("over");
-        //      if(location.pathname=="/") { // if it continues in the home page
-        //        setThemeColor("black");
-        //      }
-        //    });
-        //  })
-        //});
-
-
 
 
 
@@ -312,6 +283,64 @@ window.addEventListener("DOMContentLoaded",() => {
 
 
   }); // end startFC event listener
+
+  //var select=document.getElementById("selectNumber");
+  //var options=["1","2","3","4","5"];
+
+  //for(var i=0;i<options.length;i++) {
+  //  var opt=options[i];
+  //  var el=document.createElement("option");
+  //  el.textContent=opt;
+  //  el.value=opt;
+  //  select.appendChild(el);
+  //}
+
+
+
+  const topicSelect1=document.getElementById("catSelect1");
+  const topicSelect2=document.getElementById("catSelect2");
+  const topicSelect3=document.getElementById("catSelect3");
+  const topicSelect4=document.getElementById("catSelect4");
+  const topicSelect5=document.getElementById("catSelect5");
+
+  let topicOptions=["animals","art","books","cartoons","comics","computers","film","gadgets","general","geography","history","japaneseAnime","JsFunctions","JsTypes","mathematics","music","nature","sports","television","videoGames"];
+
+  for(let i=0;i<topicOptions.length;i++) {
+    let opt=topicOptions[i];
+    let el=document.createElement("option");
+    el.textContent=opt;
+    el.value=opt;
+    topicSelect1.appendChild(el);
+  }
+  for(let i=0;i<topicOptions.length;i++) {
+    let opt=topicOptions[i];
+    let el=document.createElement("option");
+    el.textContent=opt;
+    el.value=opt;
+    topicSelect2.appendChild(el);
+  }
+  for(let i=0;i<topicOptions.length;i++) {
+    let opt=topicOptions[i];
+    let el=document.createElement("option");
+    el.textContent=opt;
+    el.value=opt;
+    topicSelect3.appendChild(el);
+  }
+  for(let i=0;i<topicOptions.length;i++) {
+    let opt=topicOptions[i];
+    let el=document.createElement("option");
+    el.textContent=opt;
+    el.value=opt;
+    topicSelect4.appendChild(el);
+  }
+  for(let i=0;i<topicOptions.length;i++) {
+    let opt=topicOptions[i];
+    let el=document.createElement("option");
+    el.textContent=opt;
+    el.value=opt;
+    topicSelect5.appendChild(el);
+  }
+
 
 });  // end DOMContentLoaded
 
