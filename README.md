@@ -4,8 +4,12 @@ Online flashcard game for education or entertainment.
 Can be played individually or in a group using virtual meeting software such as Zoom
 A beta version of this game can be found online at 5-5s.com/flashcards
 See the instructions page for game play suggestions
-AS time allows, I may post a demo video.
+Demo video can be found at 
+https://s-oneill.com/sov02/javascript-mvp-assignment/.
 Most of the flashcard questions used are from https://opentdb.com/
+
+20231130 Career Coach feedback - need to highlight source of trivia q's
+try to initiate time on page load
 
 # Class project
 This app was created for a JavaScript Bootcamp Course at FlatIron

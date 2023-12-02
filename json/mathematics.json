@@ -100,18 +100,6 @@
     {
       "category": "Science: Mathematics",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "What type of function is x&sup2;+2x+1?",
-      "correct_answer": "Quadratic",
-      "incorrect_answers": [
-        "Rational",
-        "Linear",
-        "Exponential"
-      ]
-    },
-    {
-      "category": "Science: Mathematics",
-      "type": "multiple",
       "difficulty": "easy",
       "question": "In Roman Numerals, what does XL equate to?",
       "correct_answer": "40",
